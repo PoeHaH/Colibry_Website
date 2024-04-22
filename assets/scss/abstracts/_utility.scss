@@ -1,0 +1,140 @@
+@use 'colors' as *;
+
+.white-bg {
+    background-color: #fff;
+}
+
+.blue-bg {
+    background-color: #F5F6FF;
+}
+
+.p-3-5{
+    padding: 3.5rem;
+}
+
+.mb-1{
+    margin-bottom: 1rem; 
+}
+.mb-2{
+    margin-bottom: 2rem;
+}
+.mb-3{
+    margin-bottom: 3rem;
+}
+.mb-4{
+    margin-bottom: 4rem;
+}
+.mb-5{
+    margin-bottom: 5rem;
+}
+.mt-1{
+    margin-top: 1rem;
+} 
+.mt-2{
+    margin-top: 2rem;
+}
+.mt-3{
+    margin-top: 3rem;
+}
+.mt-4{
+    margin-top: 4rem;
+}
+.mt-5{
+    margin-top: 5rem;
+}
+.mt-6{
+    margin-top:6rem;
+}
+.mt-7{
+    margin-top:7rem;
+}
+.mt-8{
+    margin-top:8rem;
+}
+.mt-9{
+    margin-top:9rem;
+}
+.mt-10{
+    margin-top:10rem;
+}
+.mt-11{
+    margin-top:11rem;
+}
+
+
+.opacity-80{
+    opacity: .8;
+}
+.opacity-70{
+    opacity: .7;
+}
+.opacity-65{
+    opacity: .65;
+}
+.opacity-50{
+    opacity: .5;
+}
+
+.text-center{
+    text-align: center; // normal
+    justify-content: center; // flex
+}
+
+.tagline{
+    font-size: 1.35rem;
+}
+
+.sub-text{
+    text-align: center;
+    font-size: 1.2rem;
+    opacity: 0.65;
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.pink-text {
+    color: $pink;
+}
+
+.dark-text {
+    color: $primary-blue;
+}
+
+.blue-text {
+    color: $secondary-blue;
+    fill: $secondary-blue;
+}
+
+.yellow-text {
+    color: $yellow;
+}
+
+.flex{
+    display: flex;
+    flex-flow: column;
+}
+
+.flex-hcenter{
+    justify-content: center;
+}
+
+.flex-vcenter{
+    align-items: center;
+}
+
+.list-unstyled{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+
+@media (min-width: 992px) {
+    .hidden-lg-up {
+        display: none!important;
+    }
+}
+@media (max-width: 991.98px) {
+    .hidden-md-down {
+        display:none!important
+    }
+}

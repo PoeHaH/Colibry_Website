@@ -1,0 +1,83 @@
+@use 'colors' as *;
+
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Kanit:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap');
+
+$poppins: 'Poppins', sans-serif;
+$dm-sans: 'DM Sans', sans-serif;
+
+body{
+    font-family: $dm-sans;
+}
+
+h1 {
+    font-family: $poppins;
+    font-size: 4.2rem;
+    font-weight: 700; // Bold
+    text-align: center;
+    line-height: 1.2;
+    letter-spacing: -2px;
+
+    &.dark-blue {
+        color: $primary-blue;
+    }
+
+    &.blue {
+        color: $secondary-blue;
+    }
+
+    &.yellow {
+        color: $yellow;
+    }
+}
+
+h2 {
+    font-family: $poppins;
+    font-size: 3rem;
+    font-weight: 700; // Bold
+    line-height: 3rem;
+    margin-bottom: 2.5rem; // Paragraph spacing
+    margin-top: 0;
+    letter-spacing: -0.25px;
+
+    &.dark-blue {
+        color: $primary-blue;
+    }
+
+    &.blue {
+        color: $secondary-blue;
+    }
+
+    &.yellow {
+        color: $yellow;
+    }
+}
+
+h3 {
+    font-family: $poppins;
+    font-size: 1.35rem;
+    font-weight: 400;
+}
+
+h4 {
+    font-family: $poppins;
+    font-size: 1.25rem;
+    font-weight: 500; // Medium
+    margin: 0;
+}
+
+h5 {
+    font-family: $poppins;
+    font-size: 1rem;
+    font-weight: 300;
+    margin: 0;
+}
+
+p {
+    font-family: $dm-sans;
+    font-size: 1.2rem;
+    font-weight: 400; // Regular
+    text-align: left;
+    line-height: 1.5;
+    letter-spacing: -0.25px;
+}

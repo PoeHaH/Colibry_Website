@@ -1,0 +1,16 @@
+@use '../abstracts/colors' as *;
+
+.benefit-card {
+    margin: 1.8rem 0;
+    padding: .55rem 1rem;
+    border: .3rem solid $background-color;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    transition: .25s ease;
+    line-height: 1;
+
+    span:last-child{
+        padding-left:1rem;
+    }
+}

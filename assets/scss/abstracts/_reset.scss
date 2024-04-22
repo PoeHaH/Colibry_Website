@@ -1,0 +1,31 @@
+@use 'colors' as *;
+
+body {
+    line-height: 1.5;
+    margin: 0; // always remove margin on body
+    font-size: 16px;
+    color: $primary-blue;
+}
+
+// better box sizing model
+html,body,div,span,p,h1,h2,h3,h4,h5,h6,img,svg, code, blockquote, ol,ul,li,header,footer,main,section,article,aside{
+    box-sizing: border-box;
+}
+
+// Improve media defaults
+img, picture, video, canvas, svg {
+    max-width: 100%;
+    vertical-align: bottom;
+    height:auto;
+}
+
+// Remove built-in form typography
+input, button, textarea, select {
+    font: inherit;
+}
+
+// Better table
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}

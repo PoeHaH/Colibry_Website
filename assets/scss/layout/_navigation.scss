@@ -1,0 +1,133 @@
+@use '../abstracts/colors' as *;
+@use '../abstracts/fonts' as *;
+@use '../layout/header';
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 6rem;
+
+    .colibry-logo {
+        max-width: 160px;
+    }
+
+    .links-container {
+
+        display: flex;
+        gap: 3rem;
+        list-style: none;
+
+        a {
+            font-family: $poppins;
+            font-size: 1rem;
+            font-weight: 400;
+            text-decoration: none;
+            text-transform: none;
+            color: $primary-blue;
+
+            &:hover {
+                text-decoration: underline;
+                color: $pink;
+                transition: all .2s;
+            }
+
+        }
+
+        .link-secondary a{
+            color: $pink;
+            font-weight: 600;
+        }
+
+    }
+}
+
+// Mobile nav backdrop
+.nav-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0,0,0,.3);
+    z-index: 3;
+    display: none;
+}
+
+// Mobile nav hamburger button
+.nav-hamburger {
+    width: 28px;
+    display: inline-block;
+}
+
+.nav-trigger-mobile{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 6px;
+}
+
+.nav-hamburger-inner,.nav-hamburger-inner:after,.nav-hamburger-inner:before {
+    width: 100%;
+    height: 3px;
+    background: $primary-blue;
+    border-radius: 50px;
+    display: block;
+}
+
+.nav-hamburger-inner {
+    position: relative;
+}
+
+.nav-hamburger-inner:after,.nav-hamburger-inner:before {
+    position: absolute;
+    content: '';
+    bottom: -8px;
+    left: 0;
+}
+
+.nav-hamburger-inner:before {
+    bottom: -16px;
+}
+
+
+// Mobile nav, main nav
+.nav-mobile {
+    background: $primary-blue;
+    position: fixed;
+    top: 0;
+    left: 0;
+    max-width: 270px;
+    width: 90%;
+    bottom: 0;
+    z-index: 10;
+    transform: translateX(-100%)
+}
+
+.nav-mobile.active {
+    transition: .2s;
+    transform: translateX(0);
+}
+
+.nav-mobile ul {
+    list-style: none;
+    margin: 2rem 1rem .5rem 2rem;
+    padding: 0;
+    display: block;
+}
+
+.nav-mobile ul li a {
+    display: inline-block;
+    width: 100%;
+    padding: 1rem 0;
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-mobile div ul {
+    margin: .5rem 1rem 0 2rem;
+}
+
+.nav-mobile div ul li a {
+    font-size: .8rem;
+}

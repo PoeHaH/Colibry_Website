@@ -1,0 +1,24 @@
+@use './assets/scss/abstracts/colors';
+@use './assets/scss/abstracts/reset';
+@use './assets/scss/abstracts/fonts';
+@use './assets/scss/abstracts/utility';
+
+@use './assets/scss/layout/grid';
+@use './assets/scss/layout/navigation';
+@use './assets/scss/layout/footer';
+@use './assets/scss/layout/header';
+
+@use './assets/scss/components/box';
+@use './assets/scss/components/buttons';
+@use './assets/scss/components/logo-carousel';
+@use './assets/scss/components/benefit-card';
+@use './assets/scss/components/fact-card';
+@use './assets/scss/components/testimonial-card';
+@use './assets/scss/components/solution-card';
+@use './assets/scss/components/accordion';
+
+@use './assets/scss/sections/cta-end';
+@use './assets/scss/sections/testimonials';
+@use './assets/scss/sections/hero';
+@use './assets/scss/sections/integrations';
+@use './assets/scss/sections/super-powers';

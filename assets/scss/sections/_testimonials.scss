@@ -1,0 +1,208 @@
+@use '../abstracts/colors' as *;
+@use '../abstracts/fonts' as *;
+
+/*
+.testimonial {
+  background-color: $white;
+  padding: 1.5rem;
+  border-radius: 25px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+  margin: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .row-1 {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 1.5rem 3rem 0rem 3rem;
+
+
+  }
+    @media (max-width:840px) {
+      flex-direction: column;
+      width: 100%;
+    }
+  .row-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 0;
+  }
+
+
+  .author-info {
+
+    font-family: $poppins;
+
+
+    h4 {
+      font-size: 1.5rem;
+      font-weight: medium;
+      color: $primary-blue;
+      margin: 0;
+      padding: 0;
+
+    }
+
+    p {
+      font-size: 1.25rem;
+      font-weight: 300;
+      color: $primary-blue;
+      margin: 0;
+    }
+
+    p:last-child {
+      color: $secondary-blue;
+      font-weight: 500;
+    }
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+    margin-right: 0;
+  }
+
+  @media (max-width:1249px) {
+    width: 75%;
+  }
+
+  .vertical-line {
+    border-left: 5px solid $secondary-blue;
+    height: 110px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+}
+
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+
+  .card {
+    flex: 1;
+    flex-direction: column;
+
+    .testimonial {
+      flex: 1;
+      height: 25rem;
+    }
+  }
+}
+
+.columns {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  flex: 1;
+  margin: 1rem;
+
+}
+
+@media (max-width: 700px) {
+  flex-direction: row;
+}
+
+.columns>* {
+  width: 100%;
+} */
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+
+
+  .columns {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    flex: 1;
+    margin: 1rem;
+
+    .columns>* {
+      width: 100%;
+    }
+
+    .card {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+
+
+      .testimonial {
+        flex-direction: column;
+        width: auto;
+        border-radius: 25px;
+        background-color: $white;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+        .row-1 {
+          padding: 1.5rem 3rem 1rem 2rem;
+          display: flex;
+          flex-direction: row;
+          margin: 0;
+        }
+
+        .row-2 {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-evenly;
+          width: 100%;
+          margin: 0;
+          margin-top: 3rem;
+
+          .vertical-line {
+            border-left: 5px solid $secondary-blue;
+            height: 110px;
+            margin-left: 0.5rem;
+            margin-right: 0.5rem;
+          }
+
+          .author-info {
+            font-family: $poppins;
+
+
+            h4 {
+              font-size: 1.5rem;
+              font-weight: medium;
+              color: $primary-blue;
+              margin: 0;
+              padding: 0;
+
+            }
+
+            p {
+              font-size: 1.25rem;
+              font-weight: 300;
+              color: $primary-blue;
+              margin: 0;
+            }
+
+            p:last-child {
+              color: $secondary-blue;
+              font-weight: 500;
+            }
+          }
+
+          img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 1rem;
+          }
+        }
+      }
+    }
+  }
+
+  @media (max-width:900px) {
+    .columns {
+      flex-direction: column;
+    }
+  }
+}

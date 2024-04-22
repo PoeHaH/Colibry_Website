@@ -1,0 +1,54 @@
+@use '../abstracts/colors' as *;
+
+
+.accordion {
+
+    li {
+        list-style: none;
+        width: 100%;
+        margin: 1.6rem 0;
+        padding: 1rem 1.6rem;
+        border-radius: 25px;
+        background-color: #E6EDFE;
+
+        label {
+            line-height: 1;
+            align-items: center;
+            justify-content: space-between;
+            cursor: pointer;
+            display: flex;
+            font-size: 1.2rem;
+
+            span:last-child{
+                transition: transform .5s;
+            }
+
+            p {
+                padding: 0;
+                margin: 0;
+            }
+        }
+    }
+
+    input[type="radio"] {
+        display: none;
+    }
+
+    .content {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.5s, padding 0.5s;
+    }
+}
+
+.accordion input[type="radio"]:checked+label {
+    font-weight: bold;
+}
+.accordion input[type="radio"]:checked+label+.content {
+    max-height: 400px;
+    padding: 0;
+}
+
+.accordion input[type="radio"]:checked+label span:last-child {
+    transform: rotate(180deg);
+}

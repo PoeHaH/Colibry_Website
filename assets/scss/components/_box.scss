@@ -1,0 +1,9 @@
+
+.box{
+    padding:4rem 3.2rem;
+    border-radius: 25px;
+
+    &.no-bottom{
+        padding-bottom: 0;
+    }
+}

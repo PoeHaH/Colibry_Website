@@ -1,0 +1,37 @@
+@use '../abstracts/colors' as *;
+@use '../abstracts/fonts' as *;
+
+@mixin button-bg($bg) {
+
+    background: $bg;
+
+    &:hover {
+        background: lighten($bg, 8%);
+        transition: all 0.3s ease;
+        box-shadow: rgba(0, 0, 0, 0.09) 0 5px 5px 0;
+    }
+}
+
+.btn {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-family: $poppins;
+    font-size: 1rem;
+    padding: 15px 30px;
+    border-radius: 100px;
+    display: inline-block;
+}
+
+.btn-pink {
+    @include button-bg($pink);
+    text-align: center;
+}
+
+.btn-blue {
+    @include button-bg($secondary-blue);
+}
+
+.btn-dark {
+    @include button-bg($primary-blue);
+}

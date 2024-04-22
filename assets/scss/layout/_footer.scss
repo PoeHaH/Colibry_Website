@@ -1,0 +1,45 @@
+@use '../abstracts/colors' as *;
+@use '../abstracts/fonts' as *;
+
+footer {
+    background-color: $primary-blue;
+    padding: 0 56px;
+    color: $background-color;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+#footer-logo{
+    filter: brightness(0) invert(1) grayscale(1);
+}
+.container-footer {
+
+    width: 100%;
+    max-width: 1920px; //Adjust max-width based on your design
+    margin: 0 auto;
+    padding: 0 20px; //Add horizontal padding
+
+    ul {
+        list-style: none;
+        padding: 0;
+
+        li {
+            margin-bottom: 1rem;
+            text-decoration: none;
+
+            a { 
+                font-family: $poppins;
+                font-size: 1rem;
+                text-decoration: none;
+                color: $background-color;
+                transition: 0.3s ease;
+
+                &:hover {
+                    text-decoration: underline;
+                    font-weight: 500;
+                    font-size: 1.10rem;
+                }
+            }
+        }
+    }
+}

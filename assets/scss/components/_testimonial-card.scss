@@ -1,0 +1,44 @@
+@use '../abstracts/colors' as *;
+
+.testimonial-card {
+    background: #fff;
+    border-radius: 25px;
+    padding:2rem 2.2rem;
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+}
+
+.testimonial-content{
+    flex:1;
+}
+
+.testimonial-content p{
+    margin:0;
+}
+
+.testimonial-author{
+    display: flex;
+    font-size:1.1rem;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    margin-top: 2rem;
+
+    img{
+        border-radius: 50%;
+        max-width: 100px;
+        margin-right:2rem;
+    }
+
+    .author-info{
+        display: flex;
+        flex-flow: column;
+        padding-left:2rem;
+        border-left:2px solid $secondary-blue;
+    }
+
+    .author-name{
+        font-weight: bold;
+    }
+}

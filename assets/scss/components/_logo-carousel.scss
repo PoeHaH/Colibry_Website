@@ -1,0 +1,52 @@
+@use '../abstracts/colors' as *;
+
+.logo-carousel {
+
+    .splide__list{
+       display: flex;
+       align-items: center;
+    }
+
+    .splide__slide{
+        text-align: center;
+    }
+
+    img {
+        opacity: .7;
+        max-width: 80px;
+
+        &.bigger{
+            max-width: 95px;
+        }
+        &.smaller{
+            max-width: 55px;
+        }
+    }
+
+}
+
+.logo-box {
+    max-width: 900px;
+    padding: 1.5rem;
+    border:2px solid $secondary-blue;
+    border-radius: 25px;
+    margin-left:auto;
+    margin-right: auto;
+    
+    ul {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+    ul li{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex: 1;
+    }
+
+    img{
+        max-width: 150px;
+    }
+
+}
