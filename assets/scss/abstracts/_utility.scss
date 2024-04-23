@@ -8,6 +8,16 @@
     background-color: #F5F6FF;
 }
 
+.lightgreen-bg{
+    background-color: #eef6ee;
+}
+.apzg-bg{
+    background-color: #ebf4f4;
+}
+.lightpurple-bg{
+    background-color: #f2eafa;
+}
+
 .p-3-5{
     padding: 3.5rem;
 }
@@ -129,7 +139,10 @@
     display: flex;
     flex-flow: column;
 }
-
+.flex-row{
+    display: flex;
+    flex-flow: row;
+}
 .flex-hcenter{
     justify-content: center;
 }

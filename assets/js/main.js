@@ -29,7 +29,7 @@
     }
 
     // Anchor links smooth scrolling
-    var links = document.querySelectorAll('nav a[href^="#"], .btn.smooth');
+    var links = document.querySelectorAll('nav a[href^="#"], a.smooth, .btn.smooth');
     if(links){
 
         links.forEach(function(link) {

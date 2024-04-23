@@ -20,7 +20,7 @@
 
         a {
             font-family: $poppins;
-            font-size: 1rem;
+            font-size: .9rem;
             font-weight: 400;
             text-decoration: none;
             text-transform: none;
@@ -28,14 +28,14 @@
 
             &:hover {
                 text-decoration: underline;
-                color: $pink;
+                color: $secondary-blue;
                 transition: all .2s;
             }
 
         }
 
         .link-secondary a{
-            color: $pink;
+            color: $secondary-blue;
             font-weight: 600;
         }
 

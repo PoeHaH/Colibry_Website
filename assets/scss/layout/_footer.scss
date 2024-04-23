@@ -3,21 +3,17 @@
 
 footer {
     background-color: $primary-blue;
-    padding: 0 56px;
     color: $background-color;
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
+    position: relative;
+    padding: 3.5rem;
+    max-width: 100%; 
 }
 
-#footer-logo{
-    filter: brightness(0) invert(1) grayscale(1);
-}
 .container-footer {
-
-    width: 100%;
-    max-width: 1920px; //Adjust max-width based on your design
-    margin: 0 auto;
-    padding: 0 20px; //Add horizontal padding
+    #footer-logo {
+        filter: brightness(0) invert(1) grayscale(1);
+        margin-top: -2rem;
+    }
 
     ul {
         list-style: none;
@@ -25,21 +21,55 @@ footer {
 
         li {
             margin-bottom: 1rem;
-            text-decoration: none;
-
-            a { 
-                font-family: $poppins;
-                font-size: 1rem;
+            a {
                 text-decoration: none;
                 color: $background-color;
                 transition: 0.3s ease;
 
                 &:hover {
                     text-decoration: underline;
-                    font-weight: 500;
-                    font-size: 1.10rem;
                 }
             }
         }
     }
 }
+
+@media (min-width: 992px) {
+    .footer-column {
+        text-align: right;
+    }
+}
+
+ul.footer-link {
+    font-size: 1.2rem;
+}
+
+ul.social-icons {
+    text-align: right;
+
+    img {
+        object-fit: auto;
+        object-position: center;
+        width: 1.2rem;
+        height: 1rem;
+    }
+  
+    li {
+        display: inline-block;
+        margin-right: 1rem;
+    }
+}
+
+.white-hr {
+    border-top: 1px solid white;
+    margin-bottom: 0;
+}
+
+ul.copyright {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    justify-content: space-between;
+    font-size: .9rem;
+}
+
