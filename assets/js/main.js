@@ -28,6 +28,29 @@
         });
     }
 
+    // Anchor links smooth scrolling
+    var links = document.querySelectorAll('nav a[href^="#"], .btn.smooth');
+    if(links){
+
+        links.forEach(function(link) {
+            link.addEventListener('click', function (event) {
+                event.preventDefault();
+
+                var href = this.getAttribute('href');
+
+                var targetElement = document.querySelector(href);
+                if (targetElement) {
+                    var offsetTop = targetElement.offsetTop;
+
+                    window.scrollTo({
+                        top: offsetTop,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    }
+
     // Customer logo slider
     new Splide( '.splide', {
         type   : 'loop',
@@ -47,5 +70,7 @@
             speed: .25,
           },
     } ).mount(  window.splide.Extensions );
+
+
 
 } )();

@@ -43,6 +43,7 @@
         align-items: center;
         justify-content: center;
         flex: 1;
+        padding:0 1rem;
     }
 
     img{
@@ -50,3 +51,8 @@
     }
 
 }
+
+@media (max-width: 992px ) {
+    .logo-box img{ max-width: 100%; }
+}
+

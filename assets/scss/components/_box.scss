@@ -3,6 +3,10 @@
     padding:4rem 3.2rem;
     border-radius: 25px;
 
+    &.padding-small{
+        padding: 1.6rem;
+    }
+    
     &.no-bottom{
         padding-bottom: 0;
     }

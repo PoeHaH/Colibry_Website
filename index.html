@@ -10,16 +10,16 @@
     </head>
     
     <body>
-  
         <header>
             <nav class="navbar">
                 <div class="nav-backdrop" aria-hidden="true" style="display: none;"></div>
-                <img src="/assets/img/colibrylogo.svg" alt="Colibry logo">
+                <img src="assets/img/colibrylogo.svg" style="max-width: 174px;" alt="Colibry logo" class="hidden-md-down">
+                <img src="assets/img/colibry-bird.svg" style="max-width: 76px;" alt="Colibry logo" aria-hidden="true" class="hidden-lg-up">
                 <ul class="links-container hidden-md-down">
-                    <li><a href="#">Oplossingen</a></li>
-                    <li><a href="#">Klanten</a></li>
-                    <li><a href="#">Integraties</a></li>
-                    <li class="link-secondary"><a href="#">Contact</a></li>
+                    <li><a href="#solutions">Oplossingen</a></li>
+                    <li><a href="#customers">Klanten</a></li>
+                    <li><a href="#integrations">Integraties</a></li>
+                    <li class="link-secondary"><a href="#contact">Contact</a></li>
                 </ul>
                 <button aria-label="Navigation menu trigger" class="nav-trigger-mobile hidden-lg-up">
                     <span class="nav-hamburger">
@@ -28,10 +28,10 @@
                 </button>
                 <div class="nav-mobile" aria-label="Navigation for mobile devices" aria-hidden="true" style="display: none;">
                     <ul>
-                        <li><a href="#">Oplossingen</a></li>
-                        <li><a href="#">Klanten</a></li>
-                        <li><a href="#">Integraties</a></li>
-                        <li class="link-secondary"><a href="#">Contact</a></li>
+                        <li><a href="#solutions">Oplossingen</a></li>
+                        <li><a href="#customers">Klanten</a></li>
+                        <li><a href="#integrations">Integraties</a></li>
+                        <li class="link-secondary"><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
             </nav>
@@ -42,7 +42,7 @@
             <section class="hero-section">
                 <div class="container">
                     <div class="hero-content">
-                        <h1>
+                        <h1 class="text-center">
                             <span>Meer inkopen en verkopen</span>
                             <br>
                             <span class="blue-text">dankzij data en AI</span>
@@ -51,7 +51,7 @@
                         <p style="text-align:center;" class="tagline">Automatiseer en personaliseer jouw communicatie</p>
                     </div>
                     <div class="mt-3 text-center">
-                        <a href="#" class="btn btn-pink">Contacteer ons</a>
+                        <a href="#contact" class="btn btn-pink smooth">Contacteer ons</a>
                     </div>
                 </div>
             </section>
@@ -64,28 +64,28 @@
                     <div class="splide__track">
                         <div class="splide__list">
                             <div class="splide__slide">
-                                <img src="/assets/img/customers/Altro.svg" alt="Logo Altro" />
+                                <img src="assets/img/customers/Altro.svg" alt="Logo Altro" />
                             </div>
                             <div class="splide__slide">
-                                <img src="/assets/img/customers/Bordes.svg" alt="Logo Bordes" />
+                                <img src="assets/img/customers/Bordes.svg" alt="Logo Bordes" />
                             </div>
                             <div class="splide__slide">
-                                <img src="/assets/img/customers/era.svg" class="smaller" alt="Logo Era" />
+                                <img src="assets/img/customers/era.svg" class="smaller" alt="Logo Era" />
                             </div>
                             <div class="splide__slide">
-                                <img src="/assets/img/customers/immodavinci-1.svg" alt="Logo Immo Da Vinci" />
+                                <img src="assets/img/customers/immodavinci-1.svg" alt="Logo Immo Da Vinci" />
                             </div>
                             <div class="splide__slide">
-                                <img src="/assets/img/customers/immovl.svg" class="smaller" alt="Logo ImmoVL"/>
+                                <img src="assets/img/customers/immovl.svg" class="smaller" alt="Logo ImmoVL"/>
                             </div>
                             <div class="splide__slide">
-                                <img src="/assets/img/customers/janssen.svg" class="bigger" alt="Logo Janssen en Janssen" />
+                                <img src="assets/img/customers/janssen.svg" class="bigger" alt="Logo Janssen en Janssen" />
                             </div>
                             <div class="splide__slide">
-                                <img src="/assets/img/customers/malines.svg" alt="Logo Malines" />
+                                <img src="assets/img/customers/malines.svg" alt="Logo Malines" />
                             </div>
                             <div class="splide__slide">
-                                <img src="/assets/img/customers/vastgoeddejonghe.svg" alt="Logo Vastgoed Dejonghe" />
+                                <img src="assets/img/customers/vastgoeddejonghe.svg" alt="Logo Vastgoed Dejonghe" />
                             </div>
                         </div>
                     </div>
@@ -95,15 +95,15 @@
             <section class="about-us mt-8">
                 <div class="container">
                     <div class="box blue-bg">
-                        <div class="row">
-                            <div class="col-md-6 col-12">
-                                <h2>
+                        <div class="row center-cols">
+                            <div class="col-lg-6 col-12">
+                                <h2 class="text-center-lg">
                                     <span>Juiste </span><span class="blue-text">boodschap</span><span class="yellow-text">.</span>
                                 </h2>
                                 <p>
                                     Jouw alles-in-één-database voor klant- en pandgegevens. 
                                     Elimineer repetitieve taken, volg leads beter op en verhoog de
-                                    klantbeleving met gepersonaliseerde communicatie.n
+                                    klantbeleving met gepersonaliseerde communicatie.
                                     <br />
                                     <br />
                                     Krijg daarenboven unieke inzichten om datagedreven te groeien en
@@ -112,12 +112,12 @@
                                     <br />
                                     Dit alles vanuit jouw vertrouwde CRM omgeving.
                                 </p>
-                                <div class="mt-3">
-                                    <a href="#" class="btn btn-pink">Start jouw groei</a>
+                                <div class="mt-3 text-center-lg">
+                                    <a href="#contact" class="btn btn-pink smooth">Start jouw groei</a>
                                 </div>
                             </div>
-                            <div class="col-md-6 col-12 text-center">
-                                <img style="max-width: 100%;" src="/assets/img/message.png" alt="Young man holding a phone">
+                            <div class="col-lg-6 col-12 text-center">
+                                <img class="mt-3-lg-down" src="assets/img/message.png" alt="The cycle going from an incoming lead to a nurtured customer in real-estate">
                             </div>
                         </div>
                     </div>
@@ -127,20 +127,20 @@
             <section class="mt-8 super-powers">
                 <div class="container">
                     <div class="row center-cols">
-                        <div class="col-12 col-md-6">
+                        <div class="col-12 col-lg-6">
                             <div class="box blue-bg no-bottom text-center">
-                                <img src="/assets/img/super-powers-new.png" style="max-width: 450px;max-height: 450px;"  alt="Man holding a phone, doing realestate related tasks" />
+                                <img src="assets/img/super-powers-new.png" style="max-width: 450px;max-height: 450px;"  alt="Man holding a phone, doing realestate related tasks" />
                             </div>
                         </div>
-                        <div class="col-12 col-md-6">
+                        <div class="col-12 col-lg-6 mt-3-lg-down">
                             
-                            <h2>
+                            <h2 class="text-center-lg">
                                 <span>Colibry geeft je</span>
                                 <br/>
                                 <span class="blue-text">super powers</span><span class="yellow-text">.</span>
                             </h2>
                             
-                            <p>Herken je deze uitdagingen en zoek je een oplossing?</p>
+                            <p class="text-center-lg">Herken je deze uitdagingen en zoek je een oplossing?</p>
                             
                             <ul class="list-unstyled">
                                 <li class="benefit-card">
@@ -221,7 +221,7 @@
                 </div>
             </section>
 
-            <section class="mt-8">
+            <section id="customers" class="mt-8">
                 <div class="container">
                     <div class="box blue-bg">
 
@@ -231,7 +231,7 @@
                         </h2>
 
                         <div class="row">
-                            <div class="col-12 col-md-6">
+                            <div class="col-12 col-lg-6">
 
                                 <div class="testimonial-card">
                                     
@@ -241,7 +241,7 @@
 
                                     <div class="testimonial-author">
                                         <div>
-                                            <img src="/assets/img/testimonials/ERA.svg" />
+                                            <img src="assets/img/testimonials/ERA.svg" />
                                         </div>
                                         <div class="author-info">
                                             <span class="author-name">Evi Waeyaert</span>
@@ -252,7 +252,7 @@
                                 </div>
                             </div>
 
-                            <div class="col-12 col-md-6">
+                            <div class="col-12 col-lg-6 mt-3-lg-down">
 
                                 <div class="testimonial-card">
                                     
@@ -262,7 +262,7 @@
 
                                     <div class="testimonial-author">
                                         <div>
-                                            <img src="/assets/img/testimonials/malinesgroup.svg" />
+                                            <img src="assets/img/testimonials/malinesgroup.svg" />
                                         </div>
                                         <div class="author-info">
                                             <span class="author-name">Andreas Van Deyck</span>
@@ -277,9 +277,9 @@
             </section>
     
 
-            <section class="mt-8">
+            <section id="solutions" class="mt-8">
                 <div class="container">
-                    
+    
                     <h2 class="text-center">
                         <span>Onze</span>
                         <span class="blue-text">oplossingen</span><span class="yellow-text">.</span>
@@ -289,7 +289,8 @@
                         <div class="col-12 col-md-6 col-lg-3">
                             <div class="solution-card">
                                 <div class="solution-img">
-                                    <div style="width: 100%; height: 270px;" class="box blue-bg">
+                                    <div class="box padding-small blue-bg flex flex-vcenter flex-hcenter">
+                                        <img src="assets/img/automatisation.png" />
                                     </div>
                                 </div>
                                 <div class="solution-content">
@@ -303,7 +304,8 @@
                         <div class="col-12 col-md-6 col-lg-3">
                             <div class="solution-card">
                                 <div class="solution-img">
-                                    <div style="width: 100%; height: 270px;" class="box blue-bg">
+                                    <div class="box padding-small blue-bg flex flex-vcenter flex-hcenter">
+                                        <img src="assets/img/marketing.png" />
                                     </div>
                                 </div>
                                 <div class="solution-content">
@@ -317,7 +319,8 @@
                         <div class="col-12 col-md-6 col-lg-3">
                             <div class="solution-card">
                                 <div class="solution-img">
-                                    <div style="width: 100%; height: 270px;" class="box blue-bg">
+                                    <div class="box padding-small blue-bg flex flex-vcenter flex-hcenter">
+                                        <img src="assets/img/dashboard.png" />
                                     </div>
                                 </div>
                                 <div class="solution-content">
@@ -331,7 +334,8 @@
                         <div class="col-12 col-md-6 col-lg-3">
                             <div class="solution-card">
                                 <div class="solution-img">
-                                    <div style="width: 100%; height: 270px;" class="box blue-bg">
+                                    <div class="box padding-small blue-bg flex flex-vcenter flex-hcenter">
+                                        <img src="assets/img/data-ai.png" />
                                     </div>
                                 </div>
                                 <div class="solution-content">
@@ -345,15 +349,12 @@
                     </div>
 
                     <div class="mt-2 text-center">
-                        <a href="#" class="btn btn-pink">Contacteer ons</a>
+                        <a href="#contact" class="btn btn-pink smooth">Contacteer ons</a>
                     </div>
-
-
                 </div>
             </section>
 
-
-            <section class="integrations mt-8">
+            <section id="integrations" class="mt-8">
                 <div class="container">
                     <h2 class="text-center">
                         <span>Onze</span>
@@ -365,10 +366,10 @@
                 
                     <div class="logo-box mt-3">
                         <ul class="list-unstyled">
-                            <li><img src="/assets/img/integraties/Zabun.svg" alt="Zabun Logo"></li>
-                            <li><img src="/assets/img/integraties/Skarabee.svg" alt="Skarabee Logo"></li>
-                            <li><img src="/assets/img/integraties/Whise.svg" alt="Whise Logo"></li>
-                            <li><img src="/assets/img/integraties/Omnicasa.svg" alt="Omnicasa Logo"></li>
+                            <li><img src="assets/img/integraties/Zabun.svg" alt="Zabun Logo"></li>
+                            <li><img src="assets/img/integraties/Skarabee.svg" alt="Skarabee Logo"></li>
+                            <li><img src="assets/img/integraties/Whise.svg" alt="Whise Logo"></li>
+                            <li><img src="assets/img/integraties/Omnicasa.svg" alt="Omnicasa Logo"></li>
                         </ul>
                     </div>
                 </div>
@@ -451,13 +452,13 @@
                         </div>
                     </div>
                     <div class="mt-2 text-center">
-                        <a href="#" class="btn btn-pink">Vragen? Contacteer ons</a>
+                        <a href="#contact" class="btn btn-pink smooth">Vragen? Contacteer ons</a>
                     </div>
                 </div>
             </section>
       
 
-            <section class="mt-8">
+            <section id="contact" class="mt-8">
                 <div class="container">
                 <h2 class="text-center">
                     <span>Plan nu uw</span>
@@ -466,7 +467,7 @@
                 <div class="row">
                     <div class="col-12 flex-hcenter">
                         <!-- Calendly inline widget begin -->
-                        <div class="calendly-inline-widget" data-url="https://calendly.com/maxime-dejonghe/kennismaking-met-co-libry?hide_event_type_details=1&hide_gdpr_banner=1&primary_color=0049ff" style="min-width:520px;height:480px;border-radius: 25px;border:1px solid rgba(26,26,26,0.1);box-shadow: 0 1px 8px 0 rgba(0,0,0,.08)"></div>
+                        <div class="calendly-inline-widget" data-url="https://calendly.com/maxime-dejonghe/kennismaking-met-co-libry?hide_event_type_details=1&hide_gdpr_banner=1&primary_color=0049ff"></div>
                         <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
                         <!-- Calendly inline widget end -->
                     </div>
@@ -487,7 +488,6 @@
                 </div>
             </section>
         </main>
-
 
         <footer class="mt-8">
           <div class="container-footer">
@@ -550,7 +550,7 @@
         <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide-extension-auto-scroll@0.5.3/dist/js/splide-extension-auto-scroll.min.js"></script>
         <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
-        <script type="module" src="/assets/js/main.js"></script>
+        <script type="module" src="assets/js/main.js"></script>
     </body>
 
 </html>

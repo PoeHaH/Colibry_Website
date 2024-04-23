@@ -6,16 +6,35 @@
 $poppins: 'Poppins', sans-serif;
 $dm-sans: 'DM Sans', sans-serif;
 
+html{
+    font-size: 19px;
+}
+
+@media (max-width:992px) {
+    html{
+        font-size: 18px;
+    }
+}
+
+@media (max-width:768px) {
+    html{
+        font-size: 17px;
+    }
+}
+
 body{
     font-family: $dm-sans;
+    font-size: 1rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $poppins;
+    line-height: 1.2;
 }
 
 h1 {
-    font-family: $poppins;
-    font-size: 4.2rem;
+    font-size: 3.4rem;
     font-weight: 700; // Bold
-    text-align: center;
-    line-height: 1.2;
     letter-spacing: -2px;
 
     &.dark-blue {
@@ -32,10 +51,8 @@ h1 {
 }
 
 h2 {
-    font-family: $poppins;
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 700; // Bold
-    line-height: 3rem;
     margin-bottom: 2.5rem; // Paragraph spacing
     margin-top: 0;
     letter-spacing: -0.25px;
@@ -54,20 +71,17 @@ h2 {
 }
 
 h3 {
-    font-family: $poppins;
-    font-size: 1.35rem;
-    font-weight: 400;
+    font-size: 1.22rem;
+    font-weight: 500;
 }
 
 h4 {
-    font-family: $poppins;
-    font-size: 1.25rem;
+    font-size: 1.16rem;
     font-weight: 500; // Medium
     margin: 0;
 }
 
 h5 {
-    font-family: $poppins;
     font-size: 1rem;
     font-weight: 300;
     margin: 0;
@@ -75,9 +89,19 @@ h5 {
 
 p {
     font-family: $dm-sans;
-    font-size: 1.2rem;
     font-weight: 400; // Regular
     text-align: left;
     line-height: 1.5;
     letter-spacing: -0.25px;
+}
+
+@media (max-width: 992px) {
+    h1{ font-size: 3.2rem; }
+    h2{ font-size: 2.2rem; }
+}
+
+
+@media (max-width: 768px) {
+    h1{ font-size: 3rem; }
+    h2{ font-size: 2rem; }
 }

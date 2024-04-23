@@ -6,7 +6,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 1rem 6rem;
+    margin: 1rem 5rem;
 
     .colibry-logo {
         max-width: 160px;
@@ -39,6 +39,12 @@
             font-weight: 600;
         }
 
+    }
+}
+
+@media (max-width: 992px) {
+    .navbar{
+        margin: .8rem 1.4rem;
     }
 }
 

@@ -3,7 +3,7 @@
 .testimonial-card {
     background: #fff;
     border-radius: 25px;
-    padding:2rem 2.2rem;
+    padding:1.8rem 2rem;
     display: flex;
     flex-flow: column;
     height: 100%;
@@ -19,11 +19,10 @@
 
 .testimonial-author{
     display: flex;
-    font-size:1.1rem;
-    display: flex;
     flex-flow: row;
     align-items: center;
-    margin-top: 2rem;
+    margin-top: 1.8rem;
+    font-size: .9rem;
 
     img{
         border-radius: 50%;
