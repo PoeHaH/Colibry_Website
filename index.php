@@ -4,7 +4,7 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Colibry automatiseert en personaliseert jouw communicatie!</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="<?php echo get_stylesheet_uri() ?>">
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
     </head>
@@ -13,8 +13,8 @@
         <header>
             <nav class="navbar">
                 <div class="nav-backdrop" aria-hidden="true" style="display: none;"></div>
-                <img src="assets/img/colibrylogo.svg" style="max-width: 174px;" alt="Colibry logo" class="hidden-md-down">
-                <img src="assets/img/colibry-bird.svg" style="max-width: 76px;" alt="Colibry logo" aria-hidden="true" class="hidden-lg-up">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/colibrylogo.svg" style="max-width: 174px;" alt="Colibry logo" class="hidden-md-down">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/colibry-bird.svg" style="max-width: 76px;" alt="Colibry logo" aria-hidden="true" class="hidden-lg-up">
                 <ul class="links-container hidden-md-down">
                     <li><a href="#solutions">Oplossingen</a></li>
                     <li><a href="#customers">Klanten</a></li>
@@ -67,28 +67,28 @@
                     <div class="splide__track">
                         <div class="splide__list">
                             <div class="splide__slide">
-                                <img src="assets/img/customers/Altro.svg" alt="Logo Altro" />
+                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/customers/Altro.svg" alt="Logo Altro" />
                             </div>
                             <div class="splide__slide">
-                                <img src="assets/img/customers/Bordes.svg" alt="Logo Bordes" />
+                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/customers/Bordes.svg" alt="Logo Bordes" />
                             </div>
                             <div class="splide__slide">
-                                <img src="assets/img/customers/era.svg" class="smaller" alt="Logo Era" />
+                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/customers/era.svg" class="smaller" alt="Logo Era" />
                             </div>
                             <div class="splide__slide">
-                                <img src="assets/img/customers/immodavinci-1.svg" alt="Logo Immo Da Vinci" />
+                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/customers/immodavinci-1.svg" alt="Logo Immo Da Vinci" />
                             </div>
                             <div class="splide__slide">
-                                <img src="assets/img/customers/immovl.svg" class="smaller" alt="Logo ImmoVL"/>
+                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/customers/immovl.svg" class="smaller" alt="Logo ImmoVL"/>
                             </div>
                             <div class="splide__slide">
-                                <img src="assets/img/customers/janssen.svg" class="bigger" alt="Logo Janssen en Janssen" />
+                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/customers/janssen.svg" class="bigger" alt="Logo Janssen en Janssen" />
                             </div>
                             <div class="splide__slide">
-                                <img src="assets/img/customers/malines.svg" alt="Logo Malines" />
+                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/customers/malines.svg" alt="Logo Malines" />
                             </div>
                             <div class="splide__slide">
-                                <img src="assets/img/customers/vastgoeddejonghe.svg" alt="Logo Vastgoed Dejonghe" />
+                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/customers/vastgoeddejonghe.svg" alt="Logo Vastgoed Dejonghe" />
                             </div>
                         </div>
                     </div>
@@ -120,7 +120,7 @@
                                 </div>
                             </div>
                             <div class="col-lg-6 col-12 text-center">
-                                <img src="assets/img/main.png" alt="The cycle going from an incoming lead to a nurtured customer in real-estate">
+                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/main.png" alt="The cycle going from an incoming lead to a nurtured customer in real-estate">
                             </div>
                         </div>
                     </div>
@@ -132,7 +132,7 @@
                     <div class="row">
                         <div class="col-12 col-lg-6 order-lg-0 order-1 mt-2-lg-down">
                             <div class="box blue-bg no-bottom text-center flex-row" style="height: 100%; align-items: end;">
-                                <img src="assets/img/super-powers-new.png" loading="lazy" style="max-width: 450px;max-height: 450px;"  alt="Man holding a phone, doing realestate related tasks" />
+                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/super-powers-new.png" loading="lazy" style="max-width: 450px;max-height: 450px;"  alt="Man holding a phone, doing realestate related tasks" />
                             </div>
                         </div>
                         <div class="col-12 col-lg-6">
@@ -248,7 +248,7 @@
 
                                     <div class="testimonial-author">
                                         <div>
-                                            <img src="assets/img/testimonials/ERA.svg" loading="lazy" />
+                                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/testimonials/ERA.svg" loading="lazy" />
                                         </div>
                                         <div class="author-info">
                                             <span class="author-name">Evi Waeyaert</span>
@@ -269,7 +269,7 @@
 
                                     <div class="testimonial-author">
                                         <div>
-                                            <img src="assets/img/testimonials/malinesgroup.svg" loading="lazy" />
+                                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/testimonials/malinesgroup.svg" loading="lazy" />
                                         </div>
                                         <div class="author-info">
                                             <span class="author-name">Andreas Van Deyck</span>
@@ -297,7 +297,7 @@
                             <div class="solution-card">
                                 <div class="solution-img">
                                     <div class="box padding-small blue-bg flex flex-vcenter flex-hcenter">
-                                        <img src="assets/img/dashboard.png" loading="lazy" />
+                                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/dashboard.png" loading="lazy" />
                                     </div>
                                 </div>
                                 <div class="solution-content">
@@ -312,7 +312,7 @@
                             <div class="solution-card">
                                 <div class="solution-img">
                                     <div class="box padding-small lightgreen-bg flex flex-vcenter flex-hcenter">
-                                        <img src="assets/img/data-ai.png" loading="lazy" />
+                                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/data-ai.png" loading="lazy" />
                                     </div>
                                 </div>
                                 <div class="solution-content">
@@ -330,7 +330,7 @@
                             <div class="solution-card">
                                 <div class="solution-img">
                                     <div class="box padding-small lightpurple-bg flex flex-vcenter flex-hcenter">
-                                        <img src="assets/img/integrations.png" />
+                                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/integrations.png" />
                                     </div>
                                 </div>
                                 <div class="solution-content">
@@ -345,7 +345,7 @@
                             <div class="solution-card">
                                 <div class="solution-img">
                                     <div class="box padding-small apzg-bg flex flex-vcenter flex-hcenter">
-                                        <img src="assets/img/marketing.png" loading="lazy" />
+                                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/marketing.png" loading="lazy" />
                                     </div>
                                 </div>
                                 <div class="solution-content">
@@ -376,10 +376,10 @@
                 
                     <div class="logo-box mt-3">
                         <ul class="list-unstyled">
-                            <li><img src="assets/img/integraties/Zabun.svg" loading="lazy" alt="Zabun Logo"></li>
-                            <li><img src="assets/img/integraties/Skarabee.svg" loading="lazy" alt="Skarabee Logo"></li>
-                            <li><img src="assets/img/integraties/Whise.svg" loading="lazy" alt="Whise Logo"></li>
-                            <li><img src="assets/img/integraties/Omnicasa.svg" loading="lazy" alt="Omnicasa Logo"></li>
+                            <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/integraties/Zabun.svg" loading="lazy" alt="Zabun Logo"></li>
+                            <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/integraties/Skarabee.svg" loading="lazy" alt="Skarabee Logo"></li>
+                            <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/integraties/Whise.svg" loading="lazy" alt="Whise Logo"></li>
+                            <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/integraties/Omnicasa.svg" loading="lazy" alt="Omnicasa Logo"></li>
                         </ul>
                     </div>
                 </div>
@@ -510,7 +510,7 @@
             <div class="row">
                 <div class="col-md-6">
                 <div>
-                    <img src="./assets/img/colibrylogo.svg" id="footer-logo" alt="Logo"></div>
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/colibrylogo.svg" id="footer-logo" alt="Logo"></div>
                     <a href="#contact" class="btn btn-white smooth">Get in touch →</a>
                 </div>
                 <div class="col-md-6">
@@ -552,9 +552,9 @@
             <div class="col-md-6">
                 <div class="social-links text-md-end mt-3 mt-md-0">
                 <ul class="social-icons">
-                    <li><a href="https://www.facebook.com/colibrybe"><img src="assets/img/icons/Facebook_f_logo_white.svg" alt="Link to facebook"></a>
+                    <li><a href="https://www.facebook.com/colibrybe"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/Facebook_f_logo_white.svg" alt="Link to facebook"></a>
                     </li>
-                    <li><a href="https://www.linkedin.com/company/co-libry/"><img src="./assets/img/icons/LinkedIn_icon_white.svg" alt="Link to linkedin"></a>
+                    <li><a href="https://www.linkedin.com/company/co-libry/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/LinkedIn_icon_white.svg" alt="Link to linkedin"></a>
                     </li>   
                 </ul>
                 </div>
@@ -567,7 +567,7 @@
         <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide-extension-auto-scroll@0.5.3/dist/js/splide-extension-auto-scroll.min.js"></script>
         <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
-        <script type="module" src="assets/js/main.js"></script>
+        <script type="module" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/js/main.js"></script>
     </body>
 
 </html>
