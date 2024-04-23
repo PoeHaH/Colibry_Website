@@ -11,6 +11,10 @@
         border-radius: 25px;
         background-color: #E6EDFE;
 
+        &:last-child{
+            margin-bottom: 0;
+        }
+
         label {
             line-height: 1;
             align-items: center;
@@ -20,7 +24,7 @@
             font-size: 1.2rem;
 
             span:last-child{
-                transition: transform .5s;
+                transition: transform .3s;
             }
 
             p {
@@ -37,7 +41,7 @@
     .content {
         max-height: 0;
         overflow: hidden;
-        transition: max-height 0.5s, padding 0.5s;
+        transition: max-height 0.3s, padding 0.3s;
     }
 }
 

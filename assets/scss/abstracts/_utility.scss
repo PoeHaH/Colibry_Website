@@ -80,6 +80,14 @@
     }
 }
 
+@media (max-width: 768px) {
+    .mt-2-md-down{
+        margin-top:2rem;
+    }
+    .mt-3-md-down{
+        margin-top:3rem;
+    }
+}
 
 .opacity-80{
     opacity: .8;
@@ -166,4 +174,8 @@
     .hidden-md-down {
         display:none!important
     }
+}
+
+.underline{
+    text-decoration: underline;
 }

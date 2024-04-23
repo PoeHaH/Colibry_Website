@@ -67,7 +67,7 @@
         drag: false,
         pauseOnHover: true,
         autoScroll: {
-            speed: .25,
+            speed: .75,
           },
     } ).mount(  window.splide.Extensions );
 
