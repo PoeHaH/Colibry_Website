@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html <?php language_attributes(); ?>>
     <head>
-        <meta charset="UTF-8" />
+        <meta charset="<?php bloginfo( 'charset' ); ?>">
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Colibry automatiseert en personaliseert jouw communicatie!</title>
         <link rel="stylesheet" href="<?php echo get_stylesheet_uri() ?>">
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+        <?php wp_head(); ?>
     </head>
     
     <body>
@@ -243,17 +243,21 @@
                                 <div class="testimonial-card">
                                     
                                     <div class="testimonial-content">
-                                        <p>“Colibry helps us to make the search for a new home even easier for our clients. They offer our end customers the peace of mind of always being the first to know in addition to increased lead capture for us.”</p>
+                                        <p>
+                                            “Colibry helpt onze klanten hun woning sneller en makkelijker te vinden. 
+                                            Ze worden als eerste op de hoogte gesteld als er nieuwe panden in onze database te vinden zijn. 
+                                            Tevens zorgt Colibry ook voor meer leads via onze website.“
+                                        </p>
                                     </div>
 
                                     <div class="testimonial-author">
                                         <div>
-                                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/testimonials/ERA.svg" loading="lazy" />
+                                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/testimonials/michiel-van-hove.jpg" loading="lazy" />
                                         </div>
                                         <div class="author-info">
-                                            <span class="author-name">Evi Waeyaert</span>
-                                            <span class="author-role">COO</span>
-                                            <span class="author-cpy blue-text">ERA Belgium</span>
+                                            <span class="author-name">Michiel Van Hove</span>
+                                            <span class="author-role">CTO</span>
+                                            <span class="author-cpy blue-text">Hillewaere Group</span>
                                         </div>
                                     </div>
                                 </div>
@@ -497,7 +501,7 @@
                             Als je klaar bent om de volgende stap te zetten in de groei van jouw makelaarskantoor, neem dan vandaag nog contact met ons op.
                         </p>
                         <div class="mt-2">
-                            <a class="btn btn-blue" href="#">Maak een afspraak</a>
+                            <a class="btn btn-blue smooth" href="#contact">Maak een afspraak</a>
                         </div>
                     </div>
                 </div>
@@ -568,6 +572,7 @@
         <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide-extension-auto-scroll@0.5.3/dist/js/splide-extension-auto-scroll.min.js"></script>
         <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
         <script type="module" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/js/main.js"></script>
+        <?php wp_footer(); ?>
     </body>
 
 </html>
