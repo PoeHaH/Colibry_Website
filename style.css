@@ -1266,9 +1266,9 @@ ul.copyright {
   }
 }
 .benefit-card {
-  margin: 1.8rem 0;
-  padding: 0.5rem 0.9rem;
-  border: 0.3rem solid #F5F6FF;
+  margin: 1.2rem 0;
+  padding: 0.36rem 0.9rem;
+  border: 0.2rem solid #F5F6FF;
   border-radius: 25px;
   display: flex;
   align-items: center;

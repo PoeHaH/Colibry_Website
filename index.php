@@ -180,13 +180,11 @@
                                     </span>
                                 </li>
                             </ul>
-                            <div class="mt-2 opacity-65 text-center-lg">
-                                <a href="#contact" class="smooth underline">&rarr; Colibry kan je hierbij helpen!</a>
+                            <div class="mt-2 text-center-lg">
+                                <a href="#contact" class="btn btn-blue smooth">Colibry kan je hierbij helpen!</a>
                             </div>
                         </div>
                     </div>
-
-                   
                 </div>
             </section>
 
@@ -209,7 +207,7 @@
                                     8.893
                                 </span>
                                 <span class="desc">
-                                    emails verstuurd per maand
+                                    Emails verstuurd per maand
                                 </span>
                             </div>
                         </div>
@@ -252,7 +250,7 @@
 
                                     <div class="testimonial-author">
                                         <div>
-                                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/testimonials/michiel-van-hove.jpg" loading="lazy" />
+                                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/testimonials/michiel-van-hove.jpg" alt="Michael Van Hove" loading="lazy" />
                                         </div>
                                         <div class="author-info">
                                             <span class="author-name">Michiel Van Hove</span>
@@ -273,7 +271,7 @@
 
                                     <div class="testimonial-author">
                                         <div>
-                                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/testimonials/malinesgroup.svg" loading="lazy" />
+                                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/testimonials/malinesgroup.svg" alt="Andreas Van Deyck" loading="lazy" />
                                         </div>
                                         <div class="author-info">
                                             <span class="author-name">Andreas Van Deyck</span>
@@ -301,7 +299,7 @@
                             <div class="solution-card">
                                 <div class="solution-img">
                                     <div class="box padding-small blue-bg flex flex-vcenter flex-hcenter">
-                                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/dashboard.png" loading="lazy" />
+                                        <img alt="Colibry dashboard example" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/dashboard.png" loading="lazy" />
                                     </div>
                                 </div>
                                 <div class="solution-content">
@@ -316,7 +314,7 @@
                             <div class="solution-card">
                                 <div class="solution-img">
                                     <div class="box padding-small lightgreen-bg flex flex-vcenter flex-hcenter">
-                                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/data-ai.png" loading="lazy" />
+                                        <img alt="AI and data abstractions" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/data-ai.png" loading="lazy" />
                                     </div>
                                 </div>
                                 <div class="solution-content">
@@ -334,7 +332,7 @@
                             <div class="solution-card">
                                 <div class="solution-img">
                                     <div class="box padding-small lightpurple-bg flex flex-vcenter flex-hcenter">
-                                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/integrations.png" />
+                                        <img alt="Example of some of the integrations Colibry offers" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/integrations.png" />
                                     </div>
                                 </div>
                                 <div class="solution-content">
@@ -349,7 +347,7 @@
                             <div class="solution-card">
                                 <div class="solution-img">
                                     <div class="box padding-small apzg-bg flex flex-vcenter flex-hcenter">
-                                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/marketing.png" loading="lazy" />
+                                        <img alt="Showing marketing connections" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/marketing.png" loading="lazy" />
                                     </div>
                                 </div>
                                 <div class="solution-content">
@@ -407,7 +405,9 @@
                                         </span>
                                     </label>
                                     <div class="content">
-                                        <p>Neen, maar we leggen we wel een connectie met jouw CRM systeem zodat nieuwe leads die door ons gecapteerd werden, te zien zijn in jouw vertrouwde omgeving.</p>
+                                        <p>
+                                            Neen, maar we leggen we wel een connectie met jouw CRM systeem zodat jij in jouw vertrouwde omgeving kan blijven werken en wij automatiseren alles in de achtergrond.
+                                        </p>
                                     </div>
                                 </li>
                                 <li>
@@ -419,7 +419,12 @@
                                         </span>
                                     </label>
                                     <div class="content">
-                                        <p>We verzamelen data dat je ongeveer kan vergelijken met de date die Google Analytics vergaart. Dat wil zeggen dat we data over je bezoekers opslaan: waar en wanneer die op je website is gekomen. Onze AI systemen gebruiken die data om profielen van je bezoekers op te stellen.</p>
+                                        <p>
+                                        We verzamelen zowat alle data die we kunnen verzamelen over prospecten, klanten en jullie panden. 
+                                        Dat wil zeggen dat we data over je bezoekers opslaan: waar en wanneer die op je website is gekomen. 
+                                        We koppelen deze aan jullie CRM data en combineren deze met onze automatisaties. 
+                                        Onze AI systemen gebruiken die data om profielen van je bezoekers op te stellen.
+                                        </p>
                                     </div>
                                 </li>
                                 <li>
@@ -432,6 +437,20 @@
                                     </label>
                                     <div class="content">
                                         <p>De data die we capteren wordt opgeslagen in onze database in Europa. We verwerken die data en onze AI kan daar slimme inzichten mee vergaren. We delen deze data niet met derden, tenzij het gaat om connecties naar jouw systemen of om onze eigen diensten te kunnen verzekeren.</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <input type="radio" name="accordion" id="third">
+                                    <label for="third">
+                                        <span>Kan het design van de mailtjes aangepast worden volgens mijn stijl?</span>
+                                        <span>
+                                            <svg fill="none" width="1.2rem" height="1.2rem" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37 35"><ellipse cx="18.086" cy="17.5" rx="17.5" ry="18" transform="rotate(90 18.086 17.5)" fill="#ADC3FC"/><path transform="matrix(-.60312 .79765 .93835 .34568 29.401 13.077)" stroke="#fff" stroke-width="4" stroke-linecap="round" d="M2-2h12.202"/><path transform="matrix(.65872 .75238 .91982 -.39235 9.857 12)" stroke="#fff" stroke-width="4" stroke-linecap="round" d="M2-2h13.176"/></svg>
+                                        </span>
+                                    </label>
+                                    <div class="content">
+                                        <p>
+                                        Uiteraard, bij elke opstart gaan we de mailtjes uitwerken zoals jij dit wilt. Heb je geen idee wat je precies wilt, dan maken wij een voorstel op basis van jouw website. En kan jij eenvoudig feedback geven.
+                                        </p>
                                     </div>
                                 </li>
                             </ul>
@@ -460,6 +479,20 @@
                                     </label>
                                     <div class="content">
                                         <p>Colibry volgt de GDPR wetgeving waar nodig. We functioneren als een "data processor", wat betekend dat wij voor jou persoonsgegevens kunnen verwerken.</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <input type="radio" name="accordion" id="sixth">
+                                    <label for="sixth">
+                                        <span>Moet ik de inhoud van alle automation mails zelf schrijven?</span>
+                                        <span>
+                                            <svg fill="none" width="1.2rem" height="1.2rem" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37 35"><ellipse cx="18.086" cy="17.5" rx="17.5" ry="18" transform="rotate(90 18.086 17.5)" fill="#ADC3FC"/><path transform="matrix(-.60312 .79765 .93835 .34568 29.401 13.077)" stroke="#fff" stroke-width="4" stroke-linecap="round" d="M2-2h12.202"/><path transform="matrix(.65872 .75238 .91982 -.39235 9.857 12)" stroke="#fff" stroke-width="4" stroke-linecap="round" d="M2-2h13.176"/></svg>
+                                        </span>
+                                    </label>
+                                    <div class="content">
+                                        <p>
+                                        Neen we hebben een uitgebreide basis van mails die we laten herschrijven door chat GPT. Jij moet deze enkel nog nalezen en aanpassen waar nodig.
+                                        </p>
                                     </div>
                                 </li>
                             </ul>
@@ -556,9 +589,9 @@
             <div class="col-md-6">
                 <div class="social-links text-md-end mt-3 mt-md-0">
                 <ul class="social-icons">
-                    <li><a href="https://www.facebook.com/colibrybe"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/Facebook_f_logo_white.svg" alt="Link to facebook"></a>
+                    <li><a href="https://www.facebook.com/colibrybe"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/Facebook_f_logo_white.svg" alt="facebook logo"></a>
                     </li>
-                    <li><a href="https://www.linkedin.com/company/co-libry/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/LinkedIn_icon_white.svg" alt="Link to linkedin"></a>
+                    <li><a href="https://www.linkedin.com/company/co-libry/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/LinkedIn_icon_white.svg" alt="linkedin logo"></a>
                     </li>   
                 </ul>
                 </div>
