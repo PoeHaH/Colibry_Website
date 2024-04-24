@@ -440,8 +440,8 @@
                                     </div>
                                 </li>
                                 <li>
-                                    <input type="radio" name="accordion" id="fifth">
-                                    <label for="fifth">
+                                    <input type="radio" name="accordion" id="fourth">
+                                    <label for="fourth">
                                         <span>Hoe zit dat met de GDPR wetgeving?</span>
                                         <span>
                                             <svg fill="none" width="1.2rem" height="1.2rem" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37 35"><ellipse cx="18.086" cy="17.5" rx="17.5" ry="18" transform="rotate(90 18.086 17.5)" fill="#ADC3FC"/><path transform="matrix(-.60312 .79765 .93835 .34568 29.401 13.077)" stroke="#fff" stroke-width="4" stroke-linecap="round" d="M2-2h12.202"/><path transform="matrix(.65872 .75238 .91982 -.39235 9.857 12)" stroke="#fff" stroke-width="4" stroke-linecap="round" d="M2-2h13.176"/></svg>
@@ -456,8 +456,8 @@
                         <div class="col-12 col-md-6">
                             <ul class="list-unstyled accordion">
                                 <li>
-                                    <input type="radio" name="accordion" id="fourth">
-                                    <label for="fourth">
+                                    <input type="radio" name="accordion" id="fifth">
+                                    <label for="fifth">
                                         <span>Wat automatiseren jullie juist?</span>
                                         <span>
                                             <svg fill="none" width="1.2rem" height="1.2rem" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37 35"><ellipse cx="18.086" cy="17.5" rx="17.5" ry="18" transform="rotate(90 18.086 17.5)" fill="#ADC3FC"/><path transform="matrix(-.60312 .79765 .93835 .34568 29.401 13.077)" stroke="#fff" stroke-width="4" stroke-linecap="round" d="M2-2h12.202"/><path transform="matrix(.65872 .75238 .91982 -.39235 9.857 12)" stroke="#fff" stroke-width="4" stroke-linecap="round" d="M2-2h13.176"/></svg>
@@ -470,8 +470,8 @@
                                     </div>
                                 </li>
                                 <li>
-                                    <input type="radio" name="accordion" id="third">
-                                    <label for="third">
+                                    <input type="radio" name="accordion" id="sixth">
+                                    <label for="sixth">
                                         <span>Kan het design van de mailtjes aangepast worden volgens mijn stijl?</span>
                                         <span>
                                             <svg fill="none" width="1.2rem" height="1.2rem" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37 35"><ellipse cx="18.086" cy="17.5" rx="17.5" ry="18" transform="rotate(90 18.086 17.5)" fill="#ADC3FC"/><path transform="matrix(-.60312 .79765 .93835 .34568 29.401 13.077)" stroke="#fff" stroke-width="4" stroke-linecap="round" d="M2-2h12.202"/><path transform="matrix(.65872 .75238 .91982 -.39235 9.857 12)" stroke="#fff" stroke-width="4" stroke-linecap="round" d="M2-2h13.176"/></svg>
@@ -484,8 +484,8 @@
                                     </div>
                                 </li>
                                 <li>
-                                    <input type="radio" name="accordion" id="sixth">
-                                    <label for="sixth">
+                                    <input type="radio" name="accordion" id="seventh">
+                                    <label for="seventh">
                                         <span>Moet ik de inhoud van alle automation mails zelf schrijven?</span>
                                         <span>
                                             <svg fill="none" width="1.2rem" height="1.2rem" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37 35"><ellipse cx="18.086" cy="17.5" rx="17.5" ry="18" transform="rotate(90 18.086 17.5)" fill="#ADC3FC"/><path transform="matrix(-.60312 .79765 .93835 .34568 29.401 13.077)" stroke="#fff" stroke-width="4" stroke-linecap="round" d="M2-2h12.202"/><path transform="matrix(.65872 .75238 .91982 -.39235 9.857 12)" stroke="#fff" stroke-width="4" stroke-linecap="round" d="M2-2h13.176"/></svg>
@@ -498,8 +498,8 @@
                                     </div>
                                 </li>
                                 <li>
-                                    <input type="radio" name="accordion" id="sixth">
-                                    <label for="sixth">
+                                    <input type="radio" name="accordion" id="eight">
+                                    <label for="eight">
                                         <span>Hebben jullie een voorbeeld van een marketing automatisaties?</span>
                                         <span>
                                             <svg fill="none" width="1.2rem" height="1.2rem" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37 35"><ellipse cx="18.086" cy="17.5" rx="17.5" ry="18" transform="rotate(90 18.086 17.5)" fill="#ADC3FC"/><path transform="matrix(-.60312 .79765 .93835 .34568 29.401 13.077)" stroke="#fff" stroke-width="4" stroke-linecap="round" d="M2-2h12.202"/><path transform="matrix(.65872 .75238 .91982 -.39235 9.857 12)" stroke="#fff" stroke-width="4" stroke-linecap="round" d="M2-2h13.176"/></svg>
@@ -512,8 +512,8 @@
                                     </div>
                                 </li>
                                 <li>
-                                    <input type="radio" name="accordion" id="sixth">
-                                    <label for="sixth">
+                                    <input type="radio" name="accordion" id="nine">
+                                    <label for="nine">
                                         <span>Hebben jullie een voorbeelden van een sales automatisaties?</span>
                                         <span>
                                             <svg fill="none" width="1.2rem" height="1.2rem" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37 35"><ellipse cx="18.086" cy="17.5" rx="17.5" ry="18" transform="rotate(90 18.086 17.5)" fill="#ADC3FC"/><path transform="matrix(-.60312 .79765 .93835 .34568 29.401 13.077)" stroke="#fff" stroke-width="4" stroke-linecap="round" d="M2-2h12.202"/><path transform="matrix(.65872 .75238 .91982 -.39235 9.857 12)" stroke="#fff" stroke-width="4" stroke-linecap="round" d="M2-2h13.176"/></svg>
