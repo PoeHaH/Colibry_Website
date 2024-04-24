@@ -440,17 +440,15 @@
                                     </div>
                                 </li>
                                 <li>
-                                    <input type="radio" name="accordion" id="third">
-                                    <label for="third">
-                                        <span>Kan het design van de mailtjes aangepast worden volgens mijn stijl?</span>
+                                    <input type="radio" name="accordion" id="fifth">
+                                    <label for="fifth">
+                                        <span>Hoe zit dat met de GDPR wetgeving?</span>
                                         <span>
                                             <svg fill="none" width="1.2rem" height="1.2rem" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37 35"><ellipse cx="18.086" cy="17.5" rx="17.5" ry="18" transform="rotate(90 18.086 17.5)" fill="#ADC3FC"/><path transform="matrix(-.60312 .79765 .93835 .34568 29.401 13.077)" stroke="#fff" stroke-width="4" stroke-linecap="round" d="M2-2h12.202"/><path transform="matrix(.65872 .75238 .91982 -.39235 9.857 12)" stroke="#fff" stroke-width="4" stroke-linecap="round" d="M2-2h13.176"/></svg>
                                         </span>
                                     </label>
                                     <div class="content">
-                                        <p>
-                                        Uiteraard, bij elke opstart gaan we de mailtjes uitwerken zoals jij dit wilt. Heb je geen idee wat je precies wilt, dan maken wij een voorstel op basis van jouw website. En kan jij eenvoudig feedback geven.
-                                        </p>
+                                        <p>Colibry volgt de GDPR wetgeving waar nodig. We functioneren als een "data processor", wat betekend dat wij voor jou persoonsgegevens kunnen verwerken.</p>
                                     </div>
                                 </li>
                             </ul>
@@ -466,19 +464,23 @@
                                         </span>
                                     </label>
                                     <div class="content">
-                                        <p>We automatiseren een deel van de marketing en communicatie naar je klanten toe. We kunnen bijvoorbeeld emails sturen naar je klanten met nieuwe panden die aansluiten bij hun zoek criteria. In een ander voorbeeld kan Colibry je klanten een herinneringsmail sturen voor hun afspraak om een pand te bezichtigen. Dit zijn slechts enkele voorbeelden van de communicatie die wij automatiseren.</p>
+                                        <p>
+                                            We automatiseren marketing, sales en leveranciers communicatie. Dit gaande van mails en sociale media, over berichten en whatsapp tot het aansturen van de makelaars zodat zij telefonisch contact kunnen opnemen wanneer nodig.
+                                        </p>
                                     </div>
                                 </li>
                                 <li>
-                                    <input type="radio" name="accordion" id="fifth">
-                                    <label for="fifth">
-                                        <span>Hoe zit dat met de GDPR wetgeving?</span>
+                                    <input type="radio" name="accordion" id="third">
+                                    <label for="third">
+                                        <span>Kan het design van de mailtjes aangepast worden volgens mijn stijl?</span>
                                         <span>
                                             <svg fill="none" width="1.2rem" height="1.2rem" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37 35"><ellipse cx="18.086" cy="17.5" rx="17.5" ry="18" transform="rotate(90 18.086 17.5)" fill="#ADC3FC"/><path transform="matrix(-.60312 .79765 .93835 .34568 29.401 13.077)" stroke="#fff" stroke-width="4" stroke-linecap="round" d="M2-2h12.202"/><path transform="matrix(.65872 .75238 .91982 -.39235 9.857 12)" stroke="#fff" stroke-width="4" stroke-linecap="round" d="M2-2h13.176"/></svg>
                                         </span>
                                     </label>
                                     <div class="content">
-                                        <p>Colibry volgt de GDPR wetgeving waar nodig. We functioneren als een "data processor", wat betekend dat wij voor jou persoonsgegevens kunnen verwerken.</p>
+                                        <p>
+                                        Uiteraard, bij elke opstart gaan we de mailtjes uitwerken zoals jij dit wilt. Heb je geen idee wat je precies wilt, dan maken wij een voorstel op basis van jouw website. En kan jij eenvoudig feedback geven.
+                                        </p>
                                     </div>
                                 </li>
                                 <li>
@@ -491,8 +493,35 @@
                                     </label>
                                     <div class="content">
                                         <p>
-                                        Neen we hebben een uitgebreide basis van mails die we laten herschrijven door chat GPT. Jij moet deze enkel nog nalezen en aanpassen waar nodig.
+                                            Neen we hebben een uitgebreide basis van mails die we laten herschrijven door chat GPT. Jij moet deze enkel nog nalezen en aanpassen waar nodig.
                                         </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <input type="radio" name="accordion" id="sixth">
+                                    <label for="sixth">
+                                        <span>Hebben jullie een voorbeeld van een marketing automatisaties?</span>
+                                        <span>
+                                            <svg fill="none" width="1.2rem" height="1.2rem" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37 35"><ellipse cx="18.086" cy="17.5" rx="17.5" ry="18" transform="rotate(90 18.086 17.5)" fill="#ADC3FC"/><path transform="matrix(-.60312 .79765 .93835 .34568 29.401 13.077)" stroke="#fff" stroke-width="4" stroke-linecap="round" d="M2-2h12.202"/><path transform="matrix(.65872 .75238 .91982 -.39235 9.857 12)" stroke="#fff" stroke-width="4" stroke-linecap="round" d="M2-2h13.176"/></svg>
+                                        </span>
+                                    </label>
+                                    <div class="content">
+                                        <p>
+                                            Een marketing voorbeeld zijn onze marriage mails waar we rekening houden met het actuele zoekprofiel en checken of de zoekers ook nog een pand moeten verkopen in tweede fase. Het zoekprofiel houden we up-to-date door na te gaan of de zoekers de mails nog openen en klikken op de voorgestelde panden, of ze op jullie website naar hetzelfde type panden zoeken en of ze voor hetzelfde type panden eventueel een bezichtiging aanvragen. Als een van deze afwijkt van het profiel gaan we hen bevragen en het profiel updaten.
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <input type="radio" name="accordion" id="sixth">
+                                    <label for="sixth">
+                                        <span>Hebben jullie een voorbeelden van een sales automatisaties?</span>
+                                        <span>
+                                            <svg fill="none" width="1.2rem" height="1.2rem" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37 35"><ellipse cx="18.086" cy="17.5" rx="17.5" ry="18" transform="rotate(90 18.086 17.5)" fill="#ADC3FC"/><path transform="matrix(-.60312 .79765 .93835 .34568 29.401 13.077)" stroke="#fff" stroke-width="4" stroke-linecap="round" d="M2-2h12.202"/><path transform="matrix(.65872 .75238 .91982 -.39235 9.857 12)" stroke="#fff" stroke-width="4" stroke-linecap="round" d="M2-2h13.176"/></svg>
+                                        </span>
+                                    </label>
+                                    <div class="content">
+                                        <p>
+                                            Een sales automatisatie kan bijvoorbeeld bij het inkoop proces zijn. De schatting is uitgevoerd maar het mandaat wordt niet getekend. Dit kan om tal van redenen zijn, men wil het eerst zelf proberen, een andere makelaar heeft het pand ingekocht, er is sprake van een echtscheiding of erfenis, men moet eerst nog een andere woning vinden. Wij gaan deze leads automatisch opvolgen. En als we merken dat zij terug interesse tonen door op de linken te klikken of op de website actief te zijn, dan gaan we de betreffende makelaar informeren.                                        </p>
                                     </div>
                                 </li>
                             </ul>
