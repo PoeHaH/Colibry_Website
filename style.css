@@ -1087,7 +1087,7 @@ footer {
   background-color: #00003C;
   color: #F5F6FF;
   position: relative;
-  padding: 3.5rem;
+  padding: 3.5rem 0;
   max-width: 100%;
 }
 
@@ -1149,6 +1149,16 @@ ul.copyright {
   font-size: 0.9rem;
 }
 
+@media (max-width: 992px) {
+  ul.copyright {
+    font-size: 0.85rem;
+  }
+}
+@media (max-width: 768px) {
+  ul.copyright {
+    font-size: 0.75rem;
+  }
+}
 .box {
   padding: 3rem 2.2rem;
   border-radius: 25px;
@@ -1237,7 +1247,7 @@ ul.copyright {
 }
 
 .logo-box {
-  max-width: 900px;
+  max-width: 1000px;
   padding: 1.5rem;
   border: 2px solid #0049FF;
   border-radius: 25px;
@@ -1245,9 +1255,9 @@ ul.copyright {
   margin-right: auto;
 }
 .logo-box ul {
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 1rem;
 }
 .logo-box ul li {
   display: flex;
@@ -1263,6 +1273,14 @@ ul.copyright {
 @media (max-width: 992px) {
   .logo-box img {
     max-width: 100%;
+  }
+  .logo-box ul {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 768px) {
+  .logo-box ul {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 .benefit-card {
@@ -1367,6 +1385,9 @@ ul.copyright {
   cursor: pointer;
   display: flex;
   font-size: 1.2rem;
+}
+.accordion li label span:first-child {
+  flex: 1;
 }
 .accordion li label span:last-child {
   transition: transform 0.3s;

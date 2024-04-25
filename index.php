@@ -379,6 +379,7 @@
                     <div class="logo-box mt-3">
                         <ul class="list-unstyled">
                             <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/integraties/Zabun.svg" loading="lazy" alt="Zabun Logo"></li>
+                            <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/integraties/pipedrive.svg" loading="lazy" alt="Pipedrive Logo"></li>
                             <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/integraties/Skarabee.svg" loading="lazy" alt="Skarabee Logo"></li>
                             <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/integraties/Whise.svg" loading="lazy" alt="Whise Logo"></li>
                             <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/integraties/Omnicasa.svg" loading="lazy" alt="Omnicasa Logo"></li>
@@ -572,7 +573,7 @@
 
         <!-- Footer -->
         <footer class="mt-8">
-            <div class="container-footer">
+            <div class="container container-footer">
             <div class="row">
                 <div class="col-md-6">
                 <div>
@@ -612,7 +613,7 @@
                 <li><a href="#">2024 Guide2Property</a></li>
                 <li><a href="https://co-libry.com/privacy-policy/">Privacy Policy</a></li>
                 <li><a href="https://co-libry.com/terms-of-use/">Terms Of Use</a></li>
-                <li><a href="https://co-libry.com/wp-content/uploads/2022/01/Terms-Conditions-Co-libry-2022-1.pdf">Terms And Conditions</a></li>
+                <li><a href="https://co-libry.com/wp-content/uploads/2022/01/Terms-Conditions-Co-libry-2022-1.pdf">Terms & Conditions</a></li>
                 </div>
             </ul>
             <div class="col-md-6">
