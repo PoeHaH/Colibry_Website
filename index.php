@@ -407,7 +407,7 @@
                                     </label>
                                     <div class="content">
                                         <p>
-                                            Neen, maar we leggen we wel een connectie met jouw CRM systeem zodat jij in jouw vertrouwde omgeving kan blijven werken en wij automatiseren alles in de achtergrond.
+                                            Neen, maar we leggen wel een connectie met jouw CRM systeem zodat jij in jouw vertrouwde omgeving kan blijven werken en wij automatiseren alles in de achtergrond.
                                         </p>
                                     </div>
                                 </li>
