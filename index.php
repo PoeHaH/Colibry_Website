@@ -377,11 +377,19 @@
                     </div>
                 
                     <div class="logo-box mt-3">
-                        <ul class="list-unstyled">
-                            <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/integraties/Zabun.svg" loading="lazy" alt="Zabun Logo"></li>
-                            <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/integraties/Skarabee.svg" loading="lazy" alt="Skarabee Logo"></li>
-                            <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/integraties/Whise.svg" loading="lazy" alt="Whise Logo"></li>
-                            <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/integraties/Omnicasa.svg" loading="lazy" alt="Omnicasa Logo"></li>
+                        <ul class="list-unstyled row">
+                            <li class="col-lg-3 col-md-6 col-sm-6 col-12">
+                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/integraties/Zabun.svg" loading="lazy" alt="Zabun Logo">
+                            </li>
+                            <li class="col-lg-3 col-md-6 col-sm-6 col-12">
+                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/integraties/Skarabee.svg" loading="lazy" alt="Skarabee Logo">
+                            </li>
+                            <li class="col-lg-3 col-md-6 col-sm-6 col-12">
+                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/integraties/Whise.svg" loading="lazy" alt="Whise Logo">
+                            </li>
+                            <li class="col-lg-3 col-md-6 col-sm-6 col-12">
+                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/integraties/Omnicasa.svg" loading="lazy" alt="Omnicasa Logo">
+                            </li>
                         </ul>
                     </div>
                 </div>

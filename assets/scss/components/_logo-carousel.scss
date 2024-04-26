@@ -2,12 +2,12 @@
 
 .logo-carousel {
 
-    .splide__list{
-       display: flex;
-       align-items: center;
+    .splide__list {
+        display: flex;
+        align-items: center;
     }
 
-    .splide__slide{
+    .splide__slide {
         text-align: center;
     }
 
@@ -15,10 +15,11 @@
         opacity: .7;
         max-width: 80px;
 
-        &.bigger{
+        &.bigger {
             max-width: 95px;
         }
-        &.smaller{
+
+        &.smaller {
             max-width: 55px;
         }
     }
@@ -28,31 +29,43 @@
 .logo-box {
     max-width: 900px;
     padding: 1.5rem;
-    border:2px solid $secondary-blue;
+    border: 2px solid $secondary-blue;
     border-radius: 25px;
-    margin-left:auto;
+    margin-left: auto;
     margin-right: auto;
-    
+
     ul {
         display: flex;
         width: 100%;
+        flex-wrap: wrap;
         justify-content: space-between;
     }
-    ul li{
+
+    ul li {
         display: flex;
         align-items: center;
         justify-content: center;
         flex: 1;
-        padding:0 1rem;
+        padding: 0 1rem;
     }
 
-    img{
+    img {
         max-width: 150px;
     }
 
 }
 
-@media (max-width: 992px ) {
-    .logo-box img{ max-width: 100%; }
-}
+@media (max-width: 992px) {
+    .logo-box {
+        border: none;
 
+        ul {
+            display: flex; 
+            flex-direction: column;
+        }
+    }
+
+    .logo-box img {
+        max-width: 100%;
+    }
+}
