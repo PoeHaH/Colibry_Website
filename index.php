@@ -1,3 +1,5 @@
+<!-- cp -r ./ "/Users/krekelbergh/Local Sites/colibry/app/public/wp-content/themes/colibry"-->
+
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
     <head>
@@ -100,7 +102,7 @@
                     <div class="box blue-bg no-bottom">
                         <div class="row center-cols">
                             <div class="col-lg-6 col-12">
-                                <h2 class="text-center-lg">
+                                <h2 class="text-center-lg-down">
                                     <span>Juiste </span><span class="blue-text">boodschap</span><span class="yellow-text">.</span>
                                 </h2>
                                 <p>
@@ -113,7 +115,7 @@
                                 <p>
                                     We geloven in de groei van immokantoren door datagedreven automation en personalisatie van communicatie en processen. 
                                 </p>
-                                <div class="mt-3 mb-3 text-center-lg">
+                                <div class="mt-3 mb-3 text-center-lg-down">
                                     <a href="#contact" class="btn btn-blue smooth">
                                         Vraag een gratis demo aan
                                     </a>
@@ -137,13 +139,13 @@
                         </div>
                         <div class="col-12 col-lg-6">
                             
-                            <h2 class="text-center-lg">
+                            <h2 class="text-center-lg-down">
                                 <span>Colibry geeft je</span>
                                 <br/>
                                 <span class="blue-text">super powers</span><span class="yellow-text">.</span>
                             </h2>
                             
-                            <p class="text-center-lg">Als makelaar staat je klant centraal. Wil jij ook:  
+                            <p class="text-center-lg-down">Als makelaar staat je klant centraal. Wil jij ook:  
                             </p>
                             
                             <ul class="list-unstyled">
@@ -409,7 +411,7 @@
                                     <label for="first">
                                         <span>Zijn jullie een CRM systeem?</span>
                                         <span>
-                                            <svg fill="none" width="1.2rem" height="1.2rem" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37 35"><ellipse cx="18.086" cy="17.5" rx="17.5" ry="18" transform="rotate(90 18.086 17.5)" fill="#ADC3FC"/><path transform="matrix(-.60312 .79765 .93835 .34568 29.401 13.077)" stroke="#fff" stroke-width="4" stroke-linecap="round" d="M2-2h12.202"/><path transform="matrix(.65872 .75238 .91982 -.39235 9.857 12)" stroke="#fff" stroke-width="4" stroke-linecap="round" d="M2-2h13.176"/></svg>
+                                            <svg fill="none" width="1.5em" height="1.5em" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37 35"><ellipse cx="18.086" cy="17.5" rx="17.5" ry="18" transform="rotate(90 18.086 17.5)" fill="#ADC3FC"/><path transform="matrix(-.60312 .79765 .93835 .34568 29.401 13.077)" stroke="#fff" stroke-width="4" stroke-linecap="round" d="M2-2h12.202"/><path transform="matrix(.65872 .75238 .91982 -.39235 9.857 12)" stroke="#fff" stroke-width="4" stroke-linecap="round" d="M2-2h13.176"/></svg>
                                         </span>
                                     </label>
                                     <div class="content">
@@ -423,7 +425,7 @@
                                     <label for="second">
                                         <span>Welke data verzamelen jullie?</span>
                                         <span>
-                                            <svg fill="none" width="1.2rem" height="1.2rem" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37 35"><ellipse cx="18.086" cy="17.5" rx="17.5" ry="18" transform="rotate(90 18.086 17.5)" fill="#ADC3FC"/><path transform="matrix(-.60312 .79765 .93835 .34568 29.401 13.077)" stroke="#fff" stroke-width="4" stroke-linecap="round" d="M2-2h12.202"/><path transform="matrix(.65872 .75238 .91982 -.39235 9.857 12)" stroke="#fff" stroke-width="4" stroke-linecap="round" d="M2-2h13.176"/></svg>
+                                            <svg fill="none" width="1.5em" height="1.5em" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37 35"><ellipse cx="18.086" cy="17.5" rx="17.5" ry="18" transform="rotate(90 18.086 17.5)" fill="#ADC3FC"/><path transform="matrix(-.60312 .79765 .93835 .34568 29.401 13.077)" stroke="#fff" stroke-width="4" stroke-linecap="round" d="M2-2h12.202"/><path transform="matrix(.65872 .75238 .91982 -.39235 9.857 12)" stroke="#fff" stroke-width="4" stroke-linecap="round" d="M2-2h13.176"/></svg>
                                         </span>
                                     </label>
                                     <div class="content">
@@ -440,7 +442,7 @@
                                     <label for="third">
                                         <span>Wat doen jullie juist met onze data?</span>
                                         <span>
-                                            <svg fill="none" width="1.2rem" height="1.2rem" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37 35"><ellipse cx="18.086" cy="17.5" rx="17.5" ry="18" transform="rotate(90 18.086 17.5)" fill="#ADC3FC"/><path transform="matrix(-.60312 .79765 .93835 .34568 29.401 13.077)" stroke="#fff" stroke-width="4" stroke-linecap="round" d="M2-2h12.202"/><path transform="matrix(.65872 .75238 .91982 -.39235 9.857 12)" stroke="#fff" stroke-width="4" stroke-linecap="round" d="M2-2h13.176"/></svg>
+                                            <svg fill="none" width="1.5em" height="1.5em" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37 35"><ellipse cx="18.086" cy="17.5" rx="17.5" ry="18" transform="rotate(90 18.086 17.5)" fill="#ADC3FC"/><path transform="matrix(-.60312 .79765 .93835 .34568 29.401 13.077)" stroke="#fff" stroke-width="4" stroke-linecap="round" d="M2-2h12.202"/><path transform="matrix(.65872 .75238 .91982 -.39235 9.857 12)" stroke="#fff" stroke-width="4" stroke-linecap="round" d="M2-2h13.176"/></svg>
                                         </span>
                                     </label>
                                     <div class="content">
@@ -452,7 +454,7 @@
                                     <label for="fourth">
                                         <span>Hoe zit dat met de GDPR wetgeving?</span>
                                         <span>
-                                            <svg fill="none" width="1.2rem" height="1.2rem" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37 35"><ellipse cx="18.086" cy="17.5" rx="17.5" ry="18" transform="rotate(90 18.086 17.5)" fill="#ADC3FC"/><path transform="matrix(-.60312 .79765 .93835 .34568 29.401 13.077)" stroke="#fff" stroke-width="4" stroke-linecap="round" d="M2-2h12.202"/><path transform="matrix(.65872 .75238 .91982 -.39235 9.857 12)" stroke="#fff" stroke-width="4" stroke-linecap="round" d="M2-2h13.176"/></svg>
+                                            <svg fill="none" width="1.5em" height="1.5em" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37 35"><ellipse cx="18.086" cy="17.5" rx="17.5" ry="18" transform="rotate(90 18.086 17.5)" fill="#ADC3FC"/><path transform="matrix(-.60312 .79765 .93835 .34568 29.401 13.077)" stroke="#fff" stroke-width="4" stroke-linecap="round" d="M2-2h12.202"/><path transform="matrix(.65872 .75238 .91982 -.39235 9.857 12)" stroke="#fff" stroke-width="4" stroke-linecap="round" d="M2-2h13.176"/></svg>
                                         </span>
                                     </label>
                                     <div class="content">
@@ -468,7 +470,7 @@
                                     <label for="fifth">
                                         <span>Wat automatiseren jullie juist?</span>
                                         <span>
-                                            <svg fill="none" width="1.2rem" height="1.2rem" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37 35"><ellipse cx="18.086" cy="17.5" rx="17.5" ry="18" transform="rotate(90 18.086 17.5)" fill="#ADC3FC"/><path transform="matrix(-.60312 .79765 .93835 .34568 29.401 13.077)" stroke="#fff" stroke-width="4" stroke-linecap="round" d="M2-2h12.202"/><path transform="matrix(.65872 .75238 .91982 -.39235 9.857 12)" stroke="#fff" stroke-width="4" stroke-linecap="round" d="M2-2h13.176"/></svg>
+                                            <svg fill="none" width="1.5em" height="1.5em" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37 35"><ellipse cx="18.086" cy="17.5" rx="17.5" ry="18" transform="rotate(90 18.086 17.5)" fill="#ADC3FC"/><path transform="matrix(-.60312 .79765 .93835 .34568 29.401 13.077)" stroke="#fff" stroke-width="4" stroke-linecap="round" d="M2-2h12.202"/><path transform="matrix(.65872 .75238 .91982 -.39235 9.857 12)" stroke="#fff" stroke-width="4" stroke-linecap="round" d="M2-2h13.176"/></svg>
                                         </span>
                                     </label>
                                     <div class="content">
@@ -482,7 +484,7 @@
                                     <label for="sixth">
                                         <span>Kan het design van de mailtjes aangepast worden volgens mijn stijl?</span>
                                         <span>
-                                            <svg fill="none" width="1.2rem" height="1.2rem" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37 35"><ellipse cx="18.086" cy="17.5" rx="17.5" ry="18" transform="rotate(90 18.086 17.5)" fill="#ADC3FC"/><path transform="matrix(-.60312 .79765 .93835 .34568 29.401 13.077)" stroke="#fff" stroke-width="4" stroke-linecap="round" d="M2-2h12.202"/><path transform="matrix(.65872 .75238 .91982 -.39235 9.857 12)" stroke="#fff" stroke-width="4" stroke-linecap="round" d="M2-2h13.176"/></svg>
+                                            <svg fill="none" width="1.5em" height="1.5em" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37 35"><ellipse cx="18.086" cy="17.5" rx="17.5" ry="18" transform="rotate(90 18.086 17.5)" fill="#ADC3FC"/><path transform="matrix(-.60312 .79765 .93835 .34568 29.401 13.077)" stroke="#fff" stroke-width="4" stroke-linecap="round" d="M2-2h12.202"/><path transform="matrix(.65872 .75238 .91982 -.39235 9.857 12)" stroke="#fff" stroke-width="4" stroke-linecap="round" d="M2-2h13.176"/></svg>
                                         </span>
                                     </label>
                                     <div class="content">
@@ -496,7 +498,7 @@
                                     <label for="seventh">
                                         <span>Moet ik de inhoud van alle automation mails zelf schrijven?</span>
                                         <span>
-                                            <svg fill="none" width="1.2rem" height="1.2rem" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37 35"><ellipse cx="18.086" cy="17.5" rx="17.5" ry="18" transform="rotate(90 18.086 17.5)" fill="#ADC3FC"/><path transform="matrix(-.60312 .79765 .93835 .34568 29.401 13.077)" stroke="#fff" stroke-width="4" stroke-linecap="round" d="M2-2h12.202"/><path transform="matrix(.65872 .75238 .91982 -.39235 9.857 12)" stroke="#fff" stroke-width="4" stroke-linecap="round" d="M2-2h13.176"/></svg>
+                                            <svg fill="none" width="1.5em" height="1.5em" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37 35"><ellipse cx="18.086" cy="17.5" rx="17.5" ry="18" transform="rotate(90 18.086 17.5)" fill="#ADC3FC"/><path transform="matrix(-.60312 .79765 .93835 .34568 29.401 13.077)" stroke="#fff" stroke-width="4" stroke-linecap="round" d="M2-2h12.202"/><path transform="matrix(.65872 .75238 .91982 -.39235 9.857 12)" stroke="#fff" stroke-width="4" stroke-linecap="round" d="M2-2h13.176"/></svg>
                                         </span>
                                     </label>
                                     <div class="content">
@@ -510,7 +512,7 @@
                                     <label for="eight">
                                         <span>Hebben jullie een voorbeeld van een marketing automatisaties?</span>
                                         <span>
-                                            <svg fill="none" width="1.2rem" height="1.2rem" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37 35"><ellipse cx="18.086" cy="17.5" rx="17.5" ry="18" transform="rotate(90 18.086 17.5)" fill="#ADC3FC"/><path transform="matrix(-.60312 .79765 .93835 .34568 29.401 13.077)" stroke="#fff" stroke-width="4" stroke-linecap="round" d="M2-2h12.202"/><path transform="matrix(.65872 .75238 .91982 -.39235 9.857 12)" stroke="#fff" stroke-width="4" stroke-linecap="round" d="M2-2h13.176"/></svg>
+                                            <svg fill="none" width="1.5em" height="1.5em" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37 35"><ellipse cx="18.086" cy="17.5" rx="17.5" ry="18" transform="rotate(90 18.086 17.5)" fill="#ADC3FC"/><path transform="matrix(-.60312 .79765 .93835 .34568 29.401 13.077)" stroke="#fff" stroke-width="4" stroke-linecap="round" d="M2-2h12.202"/><path transform="matrix(.65872 .75238 .91982 -.39235 9.857 12)" stroke="#fff" stroke-width="4" stroke-linecap="round" d="M2-2h13.176"/></svg>
                                         </span>
                                     </label>
                                     <div class="content">
@@ -524,7 +526,7 @@
                                     <label for="nine">
                                         <span>Hebben jullie een voorbeelden van een sales automatisaties?</span>
                                         <span>
-                                            <svg fill="none" width="1.2rem" height="1.2rem" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37 35"><ellipse cx="18.086" cy="17.5" rx="17.5" ry="18" transform="rotate(90 18.086 17.5)" fill="#ADC3FC"/><path transform="matrix(-.60312 .79765 .93835 .34568 29.401 13.077)" stroke="#fff" stroke-width="4" stroke-linecap="round" d="M2-2h12.202"/><path transform="matrix(.65872 .75238 .91982 -.39235 9.857 12)" stroke="#fff" stroke-width="4" stroke-linecap="round" d="M2-2h13.176"/></svg>
+                                            <svg fill="none" width="1.5em" height="1.5em" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37 35"><ellipse cx="18.086" cy="17.5" rx="17.5" ry="18" transform="rotate(90 18.086 17.5)" fill="#ADC3FC"/><path transform="matrix(-.60312 .79765 .93835 .34568 29.401 13.077)" stroke="#fff" stroke-width="4" stroke-linecap="round" d="M2-2h12.202"/><path transform="matrix(.65872 .75238 .91982 -.39235 9.857 12)" stroke="#fff" stroke-width="4" stroke-linecap="round" d="M2-2h13.176"/></svg>
                                         </span>
                                     </label>
                                     <div class="content">
@@ -624,7 +626,7 @@
                 </div>
             </ul>
             <div class="col-md-6">
-                <div class="social-links text-md-end mt-3 mt-md-0">
+                <div class="social-links text-md-end mt-0 mt-md-0">
                 <ul class="social-icons">
                     <li><a href="https://www.facebook.com/colibrybe"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/Facebook_f_logo_white.svg" alt="facebook logo"></a>
                     </li>
