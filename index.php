@@ -575,7 +575,7 @@
         <footer class="mt-8">
             <div class="container container-footer">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6 col-sm-down">
                 <div>
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/colibrylogo.svg" id="footer-logo" alt="Logo"></div>
                     <a href="#contact" class="btn btn-white smooth">Get in touch →</a>
@@ -608,7 +608,7 @@
             </div>
             <hr class="white-hr mt-3 mb-0">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6 col-sm-down">
                 <ul class="copyright">
                 <li><a href="#">2024 Guide2Property</a></li>
                 <li><a href="https://co-libry.com/privacy-policy/">Privacy Policy</a></li>
