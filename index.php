@@ -182,7 +182,7 @@
                                     </span>
                                 </li>
                             </ul>
-                            <div class="mt-2 text-center-lg">
+                            <div class="mt-2 text-center-lg col-xs-12">
                                 <a href="#contact" class="btn btn-blue smooth">Colibry kan je hierbij helpen!</a>
                             </div>
                         </div>
@@ -584,7 +584,7 @@
         <footer class="mt-8">
             <div class="container-footer">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6 col-xs-12">
                 <div>
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/colibrylogo.svg" id="footer-logo" alt="Logo"></div>
                     <a href="#contact" class="btn btn-white smooth">Get in touch →</a>
