@@ -617,7 +617,7 @@
             </div>
             <hr class="white-hr mt-3 mb-0">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6 col-sm-12">
                 <ul class="copyright">
                 <li><a href="#">2024 Guide2Property</a></li>
                 <li><a href="https://co-libry.com/privacy-policy/">Privacy Policy</a></li>

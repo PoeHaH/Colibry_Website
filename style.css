@@ -1149,6 +1149,22 @@ ul.copyright {
   font-size: 0.9rem;
 }
 
+@media (max-width: 767px) {
+  ul.copyright {
+    flex-direction: column;
+    align-items: center;
+  }
+  ul.copyright li {
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  ul.social-icons {
+    text-align: center;
+  }
+  ul.social-icons li {
+    display: inline-block;
+  }
+}
 .box {
   padding: 3rem 2.2rem;
   border-radius: 25px;
@@ -1336,18 +1352,28 @@ ul.copyright {
 .testimonial-author img {
   border-radius: 50%;
   max-width: 94px;
-  margin-right: 2rem;
+  margin-right: 2em;
 }
 .testimonial-author .author-info {
   display: flex;
   flex-flow: column;
-  padding-left: 2rem;
+  padding-left: 2em;
   border-left: 2px solid #0049FF;
+  box-sizing: border-box;
 }
 .testimonial-author .author-name {
   font-weight: bold;
 }
 
+@media (max-width: 400px) {
+  .testimonial-author img {
+    margin-right: 0.5em;
+    max-width: 100%;
+  }
+  .testimonial-author .author-info {
+    padding-left: 0.5em;
+  }
+}
 .solution-title {
   font-weight: bold;
 }

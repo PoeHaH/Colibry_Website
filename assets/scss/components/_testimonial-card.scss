@@ -3,41 +3,55 @@
 .testimonial-card {
     background: #fff;
     border-radius: 25px;
-    padding:1.8rem 2rem;
+    padding: 1.8rem 2rem;
     display: flex;
     flex-flow: column;
     height: 100%;
 }
 
-.testimonial-content{
-    flex:1;
+.testimonial-content {
+    flex: 1;
 }
 
-.testimonial-content p{
-    margin:0;
+.testimonial-content p {
+    margin: 0;
 }
 
-.testimonial-author{
+.testimonial-author {
     display: flex;
     flex-flow: row;
     align-items: center;
     margin-top: 1.8rem;
     font-size: .9rem;
 
-    img{
+    img {
         border-radius: 50%;
         max-width: 94px;
-        margin-right:2rem;
+        margin-right: 2em;
     }
 
-    .author-info{
+    .author-info {
         display: flex;
         flex-flow: column;
-        padding-left:2rem;
-        border-left:2px solid $secondary-blue;
+        padding-left: 2em;
+        border-left: 2px solid $secondary-blue;
+        box-sizing: border-box;
     }
 
-    .author-name{
+    .author-name {
         font-weight: bold;
+    }
+}
+
+@media (max-width:400px) {
+    .testimonial-author {
+        img {
+            margin-right: 0.5em;
+            max-width: 100%;
+        }
+
+        .author-info {
+            padding-left: 0.5em;
+        }
     }
 }
