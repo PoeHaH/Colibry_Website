@@ -93,3 +93,15 @@ ul.copyright {
         }
     }
 }
+
+@media (max-width: 992px) {
+    ul.copyright {
+        font-size: .85rem;
+    }
+}
+
+@media (max-width: 768px) {
+    ul.copyright {
+        font-size: .75rem;
+    }
+}

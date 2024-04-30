@@ -204,3 +204,12 @@
 .underline {
     text-decoration: underline;
 }
+
+@media (max-width: 576px) {
+    .col-sm-down {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

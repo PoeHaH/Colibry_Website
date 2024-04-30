@@ -419,7 +419,7 @@
                                     </label>
                                     <div class="content">
                                         <p>
-                                            Neen, maar we leggen we wel een connectie met jouw CRM systeem zodat jij in jouw vertrouwde omgeving kan blijven werken en wij automatiseren alles in de achtergrond.
+                                            Neen, maar we leggen wel een connectie met jouw CRM systeem zodat jij in jouw vertrouwde omgeving kan blijven werken en wij automatiseren alles in de achtergrond.
                                         </p>
                                     </div>
                                 </li>
@@ -585,9 +585,9 @@
 
         <!-- Footer -->
         <footer class="mt-8">
-            <div class="container-footer">
+            <div class="container container-footer">
             <div class="row">
-                <div class="col-md-6 col-xs-12">
+                <div class="col-md-6 col-sm-down">
                 <div>
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/colibrylogo.svg" id="footer-logo" alt="Logo"></div>
                     <a href="#contact" class="btn btn-white smooth">Get in touch →</a>
@@ -625,7 +625,7 @@
                 <li><a href="#">2024 Guide2Property</a></li>
                 <li><a href="https://co-libry.com/privacy-policy/">Privacy Policy</a></li>
                 <li><a href="https://co-libry.com/terms-of-use/">Terms Of Use</a></li>
-                <li><a href="https://co-libry.com/wp-content/uploads/2022/01/Terms-Conditions-Co-libry-2022-1.pdf">Terms And Conditions</a></li>
+                <li><a href="https://co-libry.com/wp-content/uploads/2022/01/Terms-Conditions-Co-libry-2022-1.pdf">Terms & Conditions</a></li>
                 </div>
             </ul>
             <div class="col-md-6">
