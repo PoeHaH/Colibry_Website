@@ -392,6 +392,9 @@
                             <li class="col-lg-3 col-md-6 col-sm-6 col-12">
                                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/integraties/Omnicasa.svg" loading="lazy" alt="Omnicasa Logo">
                             </li>
+                            <li class="col-lg-3 col-md-6 col-sm-6 col-12">
+                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/integraties/pipedrive.svg" loading="lazy" alt="Pipedrive Logo">
+                            </li>
                         </ul>
                     </div>
                 </div>
