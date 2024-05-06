@@ -610,7 +610,7 @@
             <div class="row">
                 <div class="col-md-6 col-sm-down">
                 <ul class="copyright">
-                <li><a href="#">2024 Guide2Property</a></li>
+                <li><a href="#about-us">2024 Guide2Property</a></li>
                 <li><a href="https://co-libry.com/privacy-policy/">Privacy Policy</a></li>
                 <li><a href="https://co-libry.com/terms-of-use/">Terms Of Use</a></li>
                 <li><a href="https://co-libry.com/wp-content/uploads/2022/01/Terms-Conditions-Co-libry-2022-1.pdf">Terms & Conditions</a></li>
