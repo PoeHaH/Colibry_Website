@@ -1536,4 +1536,27 @@ ul.copyright {
 
 .hero-content h1 {
   margin: 6rem 2rem 1rem 2rem;
+}
+
+.employee-card {
+  background: #fff;
+  border-radius: 25px;
+  padding: 1.8rem 2rem;
+  display: flex;
+  flex-flow: column;
+  max-height: 100%;
+}
+.employee-card .employee {
+  flex: 1;
+}
+.employee-card .employee img {
+  border-radius: 50%;
+  max-width: 4rem;
+}
+.employee-card .employee .employee-info {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin-top: 1.8rem;
+  font-size: 0.9rem;
 }/*# sourceMappingURL=style.css.map */
