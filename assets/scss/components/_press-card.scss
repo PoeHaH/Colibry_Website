@@ -1,0 +1,26 @@
+.press-card {
+    text-align: left;
+    display: flex;
+    flex-flow: column;
+    line-height: 1;
+
+    .press-article {
+        color: blue;
+        margin-bottom: 0rem;
+        font-size: 1.5rem;
+    }
+
+    .date {
+        font-size: 1rem;
+        opacity: .65;
+    }
+
+    .article-link a {
+        font-size: 1rem;
+        text-decoration: underline;
+
+        &:hover {
+            color: blue;
+        }
+    }
+}
