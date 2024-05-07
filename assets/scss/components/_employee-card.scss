@@ -4,26 +4,36 @@
     padding: 1.8rem 2rem;
     display: flex;
     flex-flow: column;
-    max-height: 100%;
+    height: 90%;
 
 
     .employee {
-        //content
-        flex: 1;
-
+        flex: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
 
         img {
             border-radius: 50%;
-            max-width: 4rem;
+            max-width: 7em;
         }
 
         .employee-info {
             //author
             display: flex;
             flex-flow: column;
-            align-items: center;
             margin-top: 1.8rem;
             font-size: .9rem;
+
+            .employee-name {
+                font-weight: bold;
+                text-align: left;
+            }
+
+            .employee-role {
+                text-align: left;
+            }
         }
     }
 }

@@ -29,7 +29,7 @@
 
 <section id="team" class="mt-8">
     <div class="container">
-        <div class="box blue-bg no-bottom">
+        <div class="box blue-bg">
 
             <h2 class="text-center">
                 <span>Ons</span>
@@ -44,8 +44,8 @@
                                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/employees/woman.jpg" alt="" loading="lazy" />
                             </div>
                             <div class="employee-info">
-                                <span class="employee-name">LALA</span>
-                                <span class="employee-role blue-text">LELE</span>
+                                <span class="employee-name">Wendy Geeraert</span>
+                                <span class="employee-role blue-text">CEO</span>
                             </div>
                         </div>
                     </div>
@@ -59,8 +59,8 @@
                                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/employees/man.jpg" alt="" loading="lazy" />                           
                              </div>
                             <div class="employee-info">
-                                <span class="employee-name">LALA</span>
-                                <span class="employee-role blue-text">LELE</span>
+                                <span class="employee-name">Sam Debeuf</span>
+                                <span class="employee-role blue-text">Technical Lead</span>
                             </div>
                         </div>
                     </div>
@@ -71,11 +71,11 @@
                     <div class="employee-card mt-2">
                         <div class="employee">
                             <div>
-                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/employees/woman.jpg" alt="" loading="lazy" />                           
+                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/employees/man.jpg" alt="" loading="lazy" />                           
                              </div>
                             <div class="employee-info">
-                                <span class="employee-name">LALA</span>
-                                <span class="employee-role blue-text">LELE</span>
+                                <span class="employee-name">Maxime Dejonghe</span>
+                                <span class="employee-role blue-text">Business Developer</span>
                             </div>
                         </div>
                     </div>
@@ -86,11 +86,11 @@
                     <div class="employee-card mt-2">
                         <div class="employee">
                             <div>
-                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/employees/woman.jpg" alt="" loading="lazy" />                           
+                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/employees/man.jpg" alt="" loading="lazy" />                           
                              </div>
                             <div class="employee-info">
-                                <span class="employee-name">LALA</span>
-                                <span class="employee-role blue-text">LELE</span>
+                                <span class="employee-name">Jakob Soens</span>
+                                <span class="employee-role blue-text">Data Engineer</span>
                             </div>
                         </div>
                     </div>
@@ -107,8 +107,8 @@
                                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/employees/man.jpg" alt="" loading="lazy" />                           
                              </div>
                             <div class="employee-info">
-                                <span class="employee-name">LALA</span>
-                                <span class="employee-role blue-text">LELE</span>
+                                <span class="employee-name">Wouter Daneels</span>
+                                <span class="employee-role blue-text">Data Engineer</span>
                             </div>
                         </div>
                     </div>
@@ -122,8 +122,8 @@
                                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/employees/woman.jpg" alt="" loading="lazy" />                           
                              </div>
                             <div class="employee-info">
-                                <span class="employee-name">LALA</span>
-                                <span class="employee-role blue-text">LELE</span>
+                                <span class="employee-name">Annabel De Pourq</span>
+                                <span class="employee-role blue-text">Online Marketeer</span>
                             </div>
                         </div>
                     </div>
@@ -137,8 +137,8 @@
                                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/employees/woman.jpg" alt="" loading="lazy" />                           
                              </div>
                             <div class="employee-info">
-                                <span class="employee-name">LALA</span>
-                                <span class="employee-role blue-text">LELE</span>
+                                <span class="employee-name">Ann Praet</span>
+                                <span class="employee-role blue-text">Accounting & HR</span>
                             </div>
                         </div>
                     </div>
@@ -152,8 +152,71 @@
                                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/employees/man.jpg" alt="" loading="lazy" />                           
                              </div>
                             <div class="employee-info">
-                                <span class="employee-name">LALA</span>
-                                <span class="employee-role blue-text">LELE</span>
+                                <span class="employee-name">Maarten Belmans</span>
+                                <span class="employee-role blue-text"> Master Developer Wizard </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-lg-3">
+                    <div class="employee-card mt-2">
+                        <div class="employee">
+                            <div>
+                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/employees/woman.jpg" alt="" loading="lazy" />                           
+                             </div>
+                            <div class="employee-info">
+                                <span class="employee-name">Sylvie De Brauwer</span>
+                                <span class="employee-role blue-text">Developer</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-12 col-lg-3">
+                    <div class="employee-card mt-2">
+                        <div class="employee">
+                            <div>
+                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/employees/woman.jpg" alt="" loading="lazy" />                           
+                             </div>
+                            <div class="employee-info">
+                                <span class="employee-name">Gaétan Vandenberghe</span>
+                                <span class="employee-role blue-text">...</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-12 col-lg-3">
+                    <div class="employee-card mt-2">
+                        <div class="employee">
+                            <div>
+                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/employees/woman.jpg" alt="" loading="lazy" />                           
+                             </div>
+                            <div class="employee-info">
+                                <span class="employee-name">Lucas</span>
+                                <span class="employee-role blue-text">...</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-12 col-lg-3">
+                    <div class="employee-card mt-2">
+                        <div class="employee">
+                            <div>
+                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/employees/man.jpg" alt="" loading="lazy" />                           
+                             </div>
+                            <div class="employee-info">
+                                <span class="employee-name">Kaylen</span>
+                                <span class="employee-role blue-text">...</span>
                             </div>
                         </div>
                     </div>
