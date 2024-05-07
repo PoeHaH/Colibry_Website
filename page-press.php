@@ -10,11 +10,11 @@
             <span class="yellow-text">.</span>
         </h2>
 
-        <div class="box blue-bg no-bottom flex-row">
+        <div class="box blue-bg flex-row">
             <div class="col-12 col-lg-8">
                 <h3 class="press-title">Nieuws van ons team</h3>
                 
-                <div class="press-card mt-4">
+                <div class="press-card mt-3">
                     <span class="date">
                         Maart 5, 2021
                     </span>
@@ -134,7 +134,6 @@
                     </span>
                 </div>
 
-
                 <div class="press-card mt-4">
                     <span class="date">
                         December 05, 2023
@@ -145,6 +144,7 @@
                     <span class="article-link mt-1">
                         <a href="https://www.immoversity.be/vormingen/data-de-stille-kracht-van-de-beste-vastgoedkantoren">Lees meer</a>
                     </span>
+                </div>
 
                 <div class="press-card mt-4">
                     <span class="date">
@@ -170,7 +170,30 @@
                     </span>
                 </div>
 
+            </div>
+            <div class="col-lg-1">
 
+            </div>
+            <div class="col-12 col-lg-3">
+                <div class="media-card">
+                    <img alt="VASTGOEDNEXT" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/press/VASTGOEDNEXT.png" loading="lazy" />
+                    <P>AI REVOLUTIE IN DE VASTGOED SECTOR</P>
+                </div>
+                <div class="media-card">
+                    <img alt="VASTGOEDNEXT" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/press/VASTGOEDNEXT.png" loading="lazy" />
+                    <P>AI REVOLUTIE IN DE VASTGOED SECTOR</P>
+                </div>
+                <div class="media-card">
+                    <img alt="VASTGOEDNEXT" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/press/VASTGOEDNEXT.png" loading="lazy" />
+                    <P>AI REVOLUTIE IN DE VASTGOED SECTOR</P>
+                </div>
+                <div class="media-card">
+                    <img alt="VASTGOEDNEXT" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/press/VASTGOEDNEXT.png" loading="lazy" />
+                    <P>AI REVOLUTIE IN DE VASTGOED SECTOR</P>
+                </div>
+                <div class="media-card">
+                    <img alt="VASTGOEDNEXT" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/press/VASTGOEDNEXT.png" loading="lazy" />
+                    <P>AI REVOLUTIE IN DE VASTGOED SECTOR</P>
                 </div>
             </div>
         </div>
