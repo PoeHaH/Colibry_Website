@@ -16,13 +16,21 @@
 
 <section id="about" class="mt-8">
     <div class="container">
-        <h2 class="text-center">
-            <span>Over</span>
-            <span class="blue-text">ons</span><span class="yellow-text">.</span>
-        </h2>
-        <p>
-        Colibry is ontstaan uit de ambitie om makelaarskantoren te transformeren tot futureproof spelers in de vastgoedmarkt. Met een sterke focus op datagedreven automatisatie en personalisatie streven we ernaar om de bedrijfsvoering van onze klanten te optimaliseren en een ongeëvenaarde gebruikerservaring te bieden. Bij Colibry geloven we in de kracht van data en AI om groei te realiseren en klantrelaties te versterken. Ons toegewijde team staat klaar om jouw makelaarskantoor futureproof te maken. Ontdek hoe we samen kunnen bouwen aan jouw succes."
-        </p>
+        <div class="row center-cols">
+            <div class="col-lg-6 col-12 text-center">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/employees/collegas.jpg" alt="Colleagues sitting in a group working together">
+            </div>
+
+            <div class="col-lg-6 col-12">
+                <h2 class="text-center-lg">
+                    <span>Over </span><span class="blue-text">ons</span><span class="yellow-text">.</span>
+                </h2>
+                <p>
+                    Colibry is ontstaan uit de ambitie om makelaarskantoren te transformeren tot futureproof spelers in de vastgoedmarkt. 
+                    Met een sterke focus op datagedreven automatisatie en personalisatie streven we ernaar om de bedrijfsvoering van onze klanten te optimaliseren en een ongeëvenaarde gebruikerservaring te bieden. 
+                    Bij Colibry geloven we in de kracht van data en AI om groei te realiseren en klantrelaties te versterken. 
+                    Ons toegewijde team staat klaar om jouw makelaarskantoor futureproof te maken.</p>
+            </div>
     </div>
 </section>
 

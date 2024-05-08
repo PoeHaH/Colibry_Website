@@ -221,6 +221,14 @@ p {
   margin-top: 11rem;
 }
 
+.ml-5 {
+  margin-left: 5rem;
+}
+
+.mr-5 {
+  margin-right: 5rem;
+}
+
 @media (max-width: 992px) {
   .mt-2-lg-down {
     margin-top: 2rem;
