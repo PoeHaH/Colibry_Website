@@ -1,9 +1,27 @@
+@use '../abstracts/colors' as *;
+@use '../abstracts/fonts' as *;
+
 .media-card {
-    background: #fff;
+    background: #ffff;
     border-radius: 25px;
-    padding: 1.8rem 2rem;
+    padding: 1.8rem 1.8rem;
     display: flex;
     flex-flow: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 3rem;
+
+    p {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .article-link a {
+        font-size: 1rem;
+        text-decoration: underline;
+
+        &:hover {
+            color: blue;
+        }
+    }
 }

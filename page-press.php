@@ -178,22 +178,30 @@
                 <div class="media-card">
                     <img alt="VASTGOEDNEXT" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/press/VASTGOEDNEXT.png" loading="lazy" />
                     <P>AI REVOLUTIE IN DE VASTGOED SECTOR</P>
+                    <span class="article-link">
+                        <a href="https://www.vastgoednext.be/">Details</a>
+                    </span>
                 </div>
                 <div class="media-card">
-                    <img alt="VASTGOEDNEXT" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/press/VASTGOEDNEXT.png" loading="lazy" />
-                    <P>AI REVOLUTIE IN DE VASTGOED SECTOR</P>
+                    <img alt="Start it @KBC" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/press/kbc.png" loading="lazy" />
+                    <P>De #1 start-up accelerator in België</P>
+                    <span class="article-link">
+                        <a href="https://startit-x.com/en/accelerate/start-it-kbc">Details</a>
+                    </span>
                 </div>
                 <div class="media-card">
-                    <img alt="VASTGOEDNEXT" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/press/VASTGOEDNEXT.png" loading="lazy" />
-                    <P>AI REVOLUTIE IN DE VASTGOED SECTOR</P>
+                    <img alt="odine" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/press/odine.svg" loading="lazy" style="filter: invert(1) saturate(0) brightness(3);"/>
+                    <P>Belgische vertegenwoordiger in het prestigieuze ODINE-programma</P>
+                    <span class="article-link">
+                        <a href="https://opendataincubator.eu/">Details</a>
+                    </span>
                 </div>
                 <div class="media-card">
-                    <img alt="VASTGOEDNEXT" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/press/VASTGOEDNEXT.png" loading="lazy" />
-                    <P>AI REVOLUTIE IN DE VASTGOED SECTOR</P>
-                </div>
-                <div class="media-card">
-                    <img alt="VASTGOEDNEXT" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/press/VASTGOEDNEXT.png" loading="lazy" />
-                    <P>AI REVOLUTIE IN DE VASTGOED SECTOR</P>
+                    <img alt="de bertjes" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/press/DeBertjes-Logo.jpeg" loading="lazy"/>
+                    <P>Laureaat van de voormalige Vitesse Ondernemersprijs</P>
+                    <span class="article-link">
+                        <a href="https://www.debertjes.be/">Details</a>
+                    </span>
                 </div>
             </div>
         </div>

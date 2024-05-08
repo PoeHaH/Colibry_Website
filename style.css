@@ -1595,11 +1595,23 @@ ul.copyright {
 }
 
 .media-card {
-  background: #fff;
+  background: white;
   border-radius: 25px;
-  padding: 1.8rem 2rem;
+  padding: 1.8rem 1.8rem;
   display: flex;
   flex-flow: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 3rem;
+}
+.media-card p {
+  font-size: 1rem;
+  text-align: center;
+}
+.media-card .article-link a {
+  font-size: 1rem;
+  text-decoration: underline;
+}
+.media-card .article-link a:hover {
+  color: blue;
 }/*# sourceMappingURL=style.css.map */
