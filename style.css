@@ -1571,6 +1571,11 @@ ul.copyright {
   text-align: left;
 }
 
+.press-container {
+  display: flex;
+  flex-flow: row;
+}
+
 .press-card {
   text-align: left;
   display: flex;
@@ -1594,6 +1599,13 @@ ul.copyright {
   color: blue;
 }
 
+@media (max-width: 992px) {
+  .press-container {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+  }
+}
 .media-card {
   background: white;
   border-radius: 25px;
@@ -1603,6 +1615,7 @@ ul.copyright {
   justify-content: center;
   align-items: center;
   margin-bottom: 3rem;
+  margin-left: 3rem;
 }
 .media-card p {
   font-size: 1rem;
@@ -1614,4 +1627,11 @@ ul.copyright {
 }
 .media-card .article-link a:hover {
   color: blue;
+}
+
+@media (max-width: 992px) {
+  .media-card {
+    margin: 0;
+    margin-top: 3rem;
+  }
 }/*# sourceMappingURL=style.css.map */

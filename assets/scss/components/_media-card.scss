@@ -10,6 +10,7 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 3rem;
+    margin-left: 3rem;
 
     p {
         font-size: 1rem;
@@ -23,5 +24,12 @@
         &:hover {
             color: blue;
         }
+    }
+}
+
+@media (max-width: 992px) {
+    .media-card {
+        margin: 0;
+        margin-top: 3rem;
     }
 }
