@@ -2,7 +2,7 @@
 @use '../abstracts/fonts' as *;
 
 .media-card {
-    background: #ffff;
+    background: $background-color;
     border-radius: 25px;
     padding: 1.8rem 1.8rem;
     display: flex;

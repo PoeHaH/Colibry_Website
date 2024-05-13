@@ -10,7 +10,7 @@
             <span class="yellow-text">.</span>
         </h2>
 
-        <div class="box blue-bg press-container">
+        <div class="press-container mt-5">
             <div class="col-lg-8 col-12">
                 <h3 class="press-title">Nieuws van ons team</h3>
 
