@@ -37,7 +37,7 @@
 
 <section id="team" class="mt-8">
     <div class="container">
-        <div class="box blue-bg">
+        <div class="box">
 
             <h2 class="text-center">
                 <span>Ons</span>
@@ -175,7 +175,7 @@
                     <div class="employee-card mt-2">
                         <div class="employee">
                             <div>
-                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/employees/woman.jpg" alt="" loading="lazy" />                           
+                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/employees/avatar-sylvie.svg" alt="" loading="lazy" />                           
                              </div>
                             <div class="employee-info">
                                 <span class="employee-name">Sylvie De Brauwer</span>

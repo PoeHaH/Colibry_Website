@@ -1,10 +1,13 @@
+@use '../abstracts/colors' as *;
+
 .employee-card {
-    background: #fff;
+    background: $background-color;
     border-radius: 25px;
     padding: 1.8rem 2rem;
     display: flex;
     flex-flow: column;
     height: 90%;
+    perspective: 1000px;
 
 
     .employee {
@@ -15,8 +18,9 @@
         justify-content: center;
 
         img {
-            border-radius: 50%;
-            max-width: 7em;
+            //border-radius: 50%;
+            max-width: 10em;
+            border-radius: 25px;
         }
 
         .employee-info {

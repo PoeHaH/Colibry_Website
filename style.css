@@ -1547,12 +1547,13 @@ ul.copyright {
 }
 
 .employee-card {
-  background: #fff;
+  background: #F5F6FF;
   border-radius: 25px;
   padding: 1.8rem 2rem;
   display: flex;
   flex-flow: column;
   height: 90%;
+  perspective: 1000px;
 }
 .employee-card .employee {
   flex: 0;
@@ -1562,8 +1563,8 @@ ul.copyright {
   justify-content: center;
 }
 .employee-card .employee img {
-  border-radius: 50%;
-  max-width: 7em;
+  max-width: 10em;
+  border-radius: 25px;
 }
 .employee-card .employee .employee-info {
   display: flex;
@@ -1642,4 +1643,7 @@ ul.copyright {
     margin: 0;
     margin-top: 3rem;
   }
+}
+.privacy-title-content h1 {
+  margin: 6rem 2rem 1rem 2rem;
 }/*# sourceMappingURL=style.css.map */
