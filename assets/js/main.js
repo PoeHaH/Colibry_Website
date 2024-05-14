@@ -71,6 +71,17 @@
           },
     } ).mount(  window.splide.Extensions );
 
+    function validateForm() {
+        var fname = document.getElementById("fname").value;
+        var email = document.getElementById("email").value;
+        var subject = document.getElementById("subject").value;
+    
+        if (fname === "" || email === "" || subject === "") {
+            document.getElementById("error-message").style.display = "block";
+            return false; 
+        }
+    }
+
 
 
 } )();

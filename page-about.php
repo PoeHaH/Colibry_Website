@@ -59,12 +59,25 @@
                     </div>
                 </div>
 
+                <div class="col-12 col-lg-3">
+                    <div class="employee-card mt-2">
+                        <div class="employee">
+                            <div>
+                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/employees/AvatarAnn.svg" alt="" loading="lazy" />                           
+                             </div>
+                            <div class="employee-info">
+                                <span class="employee-name">Ann Praet</span>
+                                <span class="employee-role blue-text">Accounting & HR</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
                 <div class="col-12 col-lg-3">
                     <div class="employee-card mt-2">
                         <div class="employee">
                             <div>
-                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/employees/man.jpg" alt="" loading="lazy" />                           
+                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/employees/AvatarSam.svg" alt="" loading="lazy" />                           
                              </div>
                             <div class="employee-info">
                                 <span class="employee-name">Sam Debeuf</span>
@@ -79,7 +92,7 @@
                     <div class="employee-card mt-2">
                         <div class="employee">
                             <div>
-                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/employees/man.jpg" alt="" loading="lazy" />                           
+                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/employees/AvatarMaxime.svg" alt="" loading="lazy" />                           
                              </div>
                             <div class="employee-info">
                                 <span class="employee-name">Maxime Dejonghe</span>
@@ -90,6 +103,12 @@
                 </div>
 
 
+
+
+                
+            </div>
+
+            <div class="row">
                 <div class="col-12 col-lg-3">
                     <div class="employee-card mt-2">
                         <div class="employee">
@@ -103,16 +122,11 @@
                         </div>
                     </div>
                 </div>
-
-                
-            </div>
-
-            <div class="row">
                 <div class="col-12 col-lg-3">
                     <div class="employee-card mt-2">
                         <div class="employee">
                             <div>
-                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/employees/man.jpg" alt="" loading="lazy" />                           
+                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/employees/AvatarWouter.svg" alt="" loading="lazy" />                           
                              </div>
                             <div class="employee-info">
                                 <span class="employee-name">Wouter Daneels</span>
@@ -122,12 +136,11 @@
                     </div>
                 </div>
 
-
                 <div class="col-12 col-lg-3">
                     <div class="employee-card mt-2">
                         <div class="employee">
                             <div>
-                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/employees/woman.jpg" alt="" loading="lazy" />                           
+                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/employees/Annabel_avatar_01.svg" alt="" loading="lazy" />                           
                              </div>
                             <div class="employee-info">
                                 <span class="employee-name">Annabel De Pourq</span>
@@ -136,22 +149,6 @@
                         </div>
                     </div>
                 </div>
-
-
-                <div class="col-12 col-lg-3">
-                    <div class="employee-card mt-2">
-                        <div class="employee">
-                            <div>
-                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/employees/woman.jpg" alt="" loading="lazy" />                           
-                             </div>
-                            <div class="employee-info">
-                                <span class="employee-name">Ann Praet</span>
-                                <span class="employee-role blue-text">Accounting & HR</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
 
                 <div class="col-12 col-lg-3">
                     <div class="employee-card mt-2">
@@ -167,7 +164,6 @@
                     </div>
                 </div>
 
-                
             </div>
 
             <div class="row">
@@ -175,7 +171,7 @@
                     <div class="employee-card mt-2">
                         <div class="employee">
                             <div>
-                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/employees/AvatarSylvie2.svg" alt="" loading="lazy" />                           
+                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/employees/AvatarSylvie(2).svg" alt="" loading="lazy" />                           
                              </div>
                             <div class="employee-info">
                                 <span class="employee-name">Sylvie De Brauwer</span>
@@ -184,7 +180,6 @@
                         </div>
                     </div>
                 </div>
-
 
                 <div class="col-12 col-lg-3">
                     <div class="employee-card mt-2">
@@ -200,12 +195,11 @@
                     </div>
                 </div>
 
-
                 <div class="col-12 col-lg-3">
                     <div class="employee-card mt-2">
                         <div class="employee">
                             <div>
-                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/employees/woman.jpg" alt="" loading="lazy" />                           
+                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/employees/AvatarLucas.svg" alt="" loading="lazy" />                           
                              </div>
                             <div class="employee-info">
                                 <span class="employee-name">Lucas</span>
@@ -215,22 +209,19 @@
                     </div>
                 </div>
 
-
                 <div class="col-12 col-lg-3">
                     <div class="employee-card mt-2">
                         <div class="employee">
                             <div>
-                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/employees/man.jpg" alt="" loading="lazy" />                           
+                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/employees/question-mark.svg" alt="Question mark indicating future colleague" loading="lazy" />                           
                              </div>
                             <div class="employee-info">
-                                <span class="employee-name">Kaylen</span>
+                                <span class="employee-name">Word jij onze nieuwe collega? </span>
                                 <span class="employee-role blue-text">...</span>
                             </div>
                         </div>
                     </div>
                 </div>
-
-                
             </div>
         </div>
     </div>

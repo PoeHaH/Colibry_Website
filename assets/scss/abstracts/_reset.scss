@@ -1,4 +1,4 @@
-@use 'colors' as *;
+@use '../abstracts/colors' as *;
 
 body {
     line-height: 1.5;
@@ -6,30 +6,60 @@ body {
     color: $primary-blue;
 }
 
-a{
+a {
     color: $primary-blue;
     text-decoration: none;
 }
 
 // better box sizing model
-html,body,div,span,p,h1,h2,h3,h4,h5,h6,img,svg, code, blockquote, ol,ul,li,header,footer,main,section,article,aside{
+html,
+body,
+div,
+span,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+img,
+svg,
+code,
+blockquote,
+ol,
+ul,
+li,
+header,
+footer,
+main,
+section,
+article,
+aside {
     box-sizing: border-box;
 }
 
 // Improve media defaults
-img, picture, video, canvas, svg {
+img,
+picture,
+video,
+canvas,
+svg {
     max-width: 100%;
     vertical-align: bottom;
-    height:auto;
+    height: auto;
 }
 
 // Remove built-in form typography
-input, button, textarea, select {
+input,
+button,
+textarea,
+select {
     font: inherit;
 }
 
 // Better table
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }

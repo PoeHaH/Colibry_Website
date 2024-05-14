@@ -9,7 +9,7 @@
                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/colibrylogo.svg" id="footer-logo" alt="Logo"></div>
                 <a href="#contact" class="btn btn-white smooth">Get in touch →</a>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 col-sm-down">
             <div class="row">
                 <div class="col-6 col-md-5 col-lg-5 footer-column">
                 <ul class="footer-link">
@@ -40,13 +40,13 @@
             <div class="col-md-6 col-sm-down">
             <ul class="copyright">
             <li><a href="#about-us">2024 Guide2Property</a></li>
-            <li><a href="https://co-libry.com/privacy-policy/">Privacy Policy</a></li>
-            <li><a href="https://co-libry.com/terms-of-use/">Terms Of Use</a></li>
+            <li><a href="https://colibry.ai/privacy-policy/">Privacy Policy</a></li>
+            <li><a href="https://colibry.ai/terms-of-use/">Terms Of Use</a></li>
             <li><a href="https://co-libry.com/wp-content/uploads/2022/01/Terms-Conditions-Co-libry-2022-1.pdf">Terms & Conditions</a></li>
             </div>
         </ul>
-        <div class="col-md-6">
-            <div class="social-links text-md-end mt-3 mt-md-0">
+        <div class="col-md-6 col-sm-down">
+            <div class="social-links text-md-end mt-md-0">
             <ul class="social-icons">
                 <li><a href="https://www.facebook.com/colibrybe"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/Facebook_f_logo_white.svg" alt="facebook logo"></a>
                 </li>

@@ -169,7 +169,7 @@
                 </div>
                 <div class="media-card">
                     <img alt="Start it @KBC" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/press/kbc.png" loading="lazy" />
-                    <P>De #1 start-up accelerator in België</P>
+                    <P>Top 5 'Belgium's Most Promising Start-up'</P>
                     <span class="article-link">
                         <a href="https://startit-x.com/en/accelerate/start-it-kbc">Details →</a>
                     </span>

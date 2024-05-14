@@ -32,6 +32,22 @@
     @include button-bg($secondary-blue);
 }
 
+.btn-blue-stroke {
+    @include button-bg($pink);
+    text-align: left;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    color: $secondary-blue;
+    background-color: transparent;
+    border: 4px solid $secondary-blue;
+
+    &:hover {
+        background-color: $secondary-blue;
+        color: $white;
+        border: 4px solid $secondary-blue;
+    }
+}
+
 .btn-dark {
     @include button-bg($primary-blue);
 }
