@@ -49,7 +49,7 @@
                     <div class="employee-card mt-2">
                         <div class="employee">
                             <div>
-                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/employees/woman.jpg" alt="" loading="lazy" />
+                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/employees/AvatarWendy.svg" alt="" loading="lazy" />
                             </div>
                             <div class="employee-info">
                                 <span class="employee-name">Wendy Geeraert</span>
@@ -157,7 +157,7 @@
                     <div class="employee-card mt-2">
                         <div class="employee">
                             <div>
-                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/employees/man.jpg" alt="" loading="lazy" />                           
+                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/employees/AvatarMaarten.svg" alt="" loading="lazy" />                           
                              </div>
                             <div class="employee-info">
                                 <span class="employee-name">Maarten Belmans</span>
@@ -175,7 +175,7 @@
                     <div class="employee-card mt-2">
                         <div class="employee">
                             <div>
-                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/employees/avatar-sylvie.svg" alt="" loading="lazy" />                           
+                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/employees/AvatarSylvie2.svg" alt="" loading="lazy" />                           
                              </div>
                             <div class="employee-info">
                                 <span class="employee-name">Sylvie De Brauwer</span>
@@ -190,7 +190,7 @@
                     <div class="employee-card mt-2">
                         <div class="employee">
                             <div>
-                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/employees/woman.jpg" alt="" loading="lazy" />                           
+                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/employees/AvatarGaetan.svg" alt="" loading="lazy" />                           
                              </div>
                             <div class="employee-info">
                                 <span class="employee-name">Gaétan Vandenberghe</span>
