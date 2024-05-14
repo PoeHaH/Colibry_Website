@@ -17,13 +17,29 @@
         text-align: center;
     }
 
-    .article-link a {
+    .article-link{
+        display: inline-block;
+        position: relative;
+        color: $secondary-blue;
         font-size: 1rem;
-        text-decoration: underline;
+    }
 
-        &:hover {
-            color: blue;
-        }
+    .article-link::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        transform: scaleX(0);
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        background-color: $secondary-blue;
+        transform-origin: bottom right;
+        transition: transform 0.25s ease-out;
+    }
+
+    .article-link:hover::after {
+        transform: scaleX(1);
+        transform-origin: bottom left;
     }
 }
 

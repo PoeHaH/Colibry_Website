@@ -145,6 +145,10 @@ p {
   background-color: #eef6ee;
 }
 
+.lightyellow-bg {
+  background-color: #f6f4ee;
+}
+
 .apzg-bg {
   background-color: #ebf4f4;
 }
@@ -1601,11 +1605,27 @@ ul.copyright {
   opacity: 0.65;
 }
 .press-card .article-link a {
+  display: inline-block;
+  position: relative;
+  color: #00003C;
   font-size: 1rem;
-  text-decoration: underline;
 }
-.press-card .article-link a:hover {
-  color: blue;
+.press-card .article-link a::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  color: #0049FF;
+  background-color: #0049FF;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+.press-card .article-link a:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
 
 @media (max-width: 992px) {
@@ -1630,12 +1650,27 @@ ul.copyright {
   font-size: 1rem;
   text-align: center;
 }
-.media-card .article-link a {
+.media-card .article-link {
+  display: inline-block;
+  position: relative;
+  color: #0049FF;
   font-size: 1rem;
-  text-decoration: underline;
 }
-.media-card .article-link a:hover {
-  color: blue;
+.media-card .article-link::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #0049FF;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+.media-card .article-link:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
 
 @media (max-width: 992px) {
@@ -1653,10 +1688,34 @@ ul.copyright {
 }
 
 .job-card img {
-  max-height: 100%;
+  max-height: 80%;
 }
 
 .job-img > div {
   width: 100%;
   height: 270px;
+}
+
+.job-link {
+  display: inline-block;
+  position: relative;
+  color: #0049FF;
+}
+
+.job-link::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #0049FF;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.job-link:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }/*# sourceMappingURL=style.css.map */

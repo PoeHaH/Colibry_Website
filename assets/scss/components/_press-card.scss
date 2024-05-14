@@ -1,3 +1,5 @@
+@use '../abstracts/colors' as *;
+
 .press-container {
     display: flex;
     flex-flow: row;
@@ -21,12 +23,30 @@
     }
 
     .article-link a {
+        display: inline-block;
+        position: relative;
+        color: $primary-blue;
         font-size: 1rem;
-        text-decoration: underline;
+    }
 
-        &:hover {
-            color: blue;
-        }
+    .article-link a::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        transform: scaleX(0);
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        color: $secondary-blue;
+        background-color: $secondary-blue;
+        transform-origin: bottom right;
+        transition: transform 0.25s ease-out;
+    }
+
+    .article-link a:hover::after {
+        transform: scaleX(1);
+        transform-origin: bottom left;
+
     }
 }
 

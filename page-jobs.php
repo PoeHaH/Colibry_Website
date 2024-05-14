@@ -20,7 +20,7 @@
                 <div class="job-card">
                     <div class="job-img">
                         <div class="box padding-small blue-bg flex flex-vcenter flex-hcenter">
-                            <img alt="Colibry dashboard example" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/dashboard.png" loading="lazy" />
+                            <img alt="Settings Icons depicting back-end software engineer" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/settings.svg" loading="lazy" />
                         </div>
                     </div>
                     <div class="solution-content">
@@ -39,8 +39,8 @@
             <div class="col-12 col-md-6">
                 <div class="job-card">
                     <div class="job-img">
-                        <div class="box padding-small lightgreen-bg flex flex-vcenter flex-hcenter">
-                            <img alt="AI and data abstractions" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/data-ai.png" loading="lazy" />
+                        <div class="box padding-small lightyellow-bg flex flex-vcenter flex-hcenter">
+                            <img alt="AI and data abstractions" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/data-science.svg" loading="lazy" />
                         </div>
                     </div>
                     <div class="solution-content">
