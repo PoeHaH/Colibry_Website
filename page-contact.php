@@ -58,6 +58,16 @@
         </div>
     </div>
 </section>
+<section class="mt-8">
+    <div class="container">
+        <div class="box">
+            <p class="text-center tagline">
+                “Colibry helpt onze klanten hun woning sneller en makkelijker te vinden. Ze worden als eerste op de hoogte gesteld als er nieuwe panden in onze database te vinden zijn. Tevens zorgt Colibry ook voor meer leads via onze website.“
+            </p>
+        </div>
+    </div>
+
+</section>
 </p>
 
 <?php get_footer(); ?>

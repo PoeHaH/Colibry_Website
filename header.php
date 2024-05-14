@@ -19,7 +19,7 @@
                     <li><a href="/#solutions">Oplossingen</a></li>
                     <li><a href="/#customers">Klanten</a></li>
                     <li><a href="/#integrations">Integraties</a></li>
-                    <li class="link-secondary"><a href="#contact">Contact</a></li>
+                    <li class="link-secondary"><a href="https://www.colibry.ai/contact/">Contact</a></li>
                 </ul>
                 <button aria-label="Navigation menu trigger" class="nav-trigger-mobile hidden-lg-up">
                     <span class="nav-hamburger">
