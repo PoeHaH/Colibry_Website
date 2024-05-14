@@ -29,7 +29,7 @@
                         You get the role of back-end developer and work closely with our data scientist and web developer to design, build, test, and maintain data management systems and the connected web services. Make sure our data scientist doesn’t go too wild and collaborate to bring his models to production.
                         </p>
                         <span class="job-link">
-                        <a href="https://www.colibry.ai">Read more →</a>
+                        <a href="https://www.colibry.ai/jobs/software-back-end-engineer">Read more →</a>
                         </span>
                     </div>
                 </div>
@@ -45,10 +45,10 @@
                     </div>
                     <div class="solution-content">
                         <h3 class="solution-title">Data scientist/analyst/engineer intern</h3>
-                        <p>Colibry is searching a data enthusiastic problem-solver with knowledge of the capabilities of AI without forgetting the end goal. We search for a team-player who can also work autonomously and takes responsibility for his link in the chain.</p>
+                        <p>Colibry is searching for a data enthusiastic problem-solver with knowledge of the capabilities of AI without forgetting the end goal. We search for a team-player who can also work autonomously and takes responsibility for his link in the chain.</p>
                     </div>
                     <span class="job-link">
-                        <a href="https://www.colibry.ai">Read more →</a>
+                        <a href="https://www.colibry.ai/jobs/data-scientist-analyst-engineer-intern">Read more →</a>
                         </span>
                 </div>
             </div>
