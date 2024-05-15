@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <p>
-<section class="contact mt-5">
+<section class="contact mt-5" id="contact">
     <div class="container">
         <div class="box blue-bg">
             <div class="row">

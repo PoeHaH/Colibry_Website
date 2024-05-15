@@ -220,9 +220,7 @@
                 </div>
 
                 <div class="col-12 col-lg-6 mt-3-lg-down">
-
-                    <div class="testimonial-card">
-                        
+                    <div class="testimonial-card"> 
                         <div class="testimonial-content">
                             <p>“We wilden al veel eerder repetitieve taken automatiseren, maar de technologie was er nog niet. Dankzij Colibry hebben we automations om klanten beter te servicen en te informeren via mails en sms. Zo kunnen we focussen op de zaken die echt resultaten leveren.”</p>
                         </div>
