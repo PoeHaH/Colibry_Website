@@ -113,7 +113,7 @@
                     <div class="employee-card mt-2">
                         <div class="employee">
                             <div>
-                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/employees/man.jpg" alt="" loading="lazy" />                           
+                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/employees/AvatarJakob.svg" alt="" loading="lazy" />                           
                              </div>
                             <div class="employee-info">
                                 <span class="employee-name">Jakob Soens</span>

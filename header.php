@@ -3,6 +3,7 @@
     <head>
         <meta charset="<?php bloginfo( 'charset' ); ?>">
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="Colibry helpt je makelaarskantoor futureproof te worden met betere leadgeneratie en communicatie door het gebruik van data en AI. Kies voor Colibry en wordt meer efficiënt. Meer taken, minder moeite!" />
         <link rel="stylesheet" href="<?php echo get_stylesheet_uri() ?>">
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -36,5 +37,4 @@
                 </div>
             </nav>
         </header>
-  
         <main>

@@ -180,14 +180,12 @@
                 </div>
             </div>
         </div>
-
     </div>
 </section>
 
 <section id="customers" class="mt-8">
     <div class="container">
         <div class="box blue-bg">
-
             <h2 class="text-center mb-4">
                 <span>Onze</span>
                 <span class="blue-text">klanten</span><span class="yellow-text">.</span>
