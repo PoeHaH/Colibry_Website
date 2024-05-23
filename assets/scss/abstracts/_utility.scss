@@ -145,6 +145,11 @@
     justify-content: center; // flex
 }
 
+.text-left {
+    text-align: left;
+    justify-content: flex-start;
+}
+
 @media (max-width: 992px) {
     .text-center-lg-down {
         text-align: center; // normal

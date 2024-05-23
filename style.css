@@ -304,6 +304,11 @@ p {
   justify-content: center;
 }
 
+.text-left {
+  text-align: left;
+  justify-content: flex-start;
+}
+
 @media (max-width: 992px) {
   .text-center-lg-down {
     text-align: center;
@@ -1836,4 +1841,17 @@ textarea::placeholder {
 #error-message {
   color: red;
   display: none;
+}
+
+.blog-title {
+  font-weight: bold;
+}
+
+.blog-card img {
+  max-height: 40%;
+}
+
+.blog-img > div {
+  width: 100%;
+  height: 270px;
 }/*# sourceMappingURL=style.css.map */

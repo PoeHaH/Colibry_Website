@@ -12,25 +12,20 @@
             <div class="col-md-6 col-sm-down">
             <div class="row">
                 <div class="col-6 col-md-5 col-lg-5 footer-column">
-                <ul class="footer-link">
-                    <li><a class="smooth" href="#solutions">Oplossingen</a></li>
-                </ul>
+                <h4>Company</h4>
+                    <ul class="footer-link">
+                        <li><a class="smooth" href="#about-us">About us</a></li>
+                        <li><a class="smooth" href="#jobs">Jobs</a></li>
+                        <li><a class="smooth" href="#press">Press</a></li>
+                        <li><a class="smooth" href="#contact">Contact</a></li>
+                    </ul>
                 </div>
                 <div class="col-6 col-md-5 col-lg-5 footer-column">
-                    <ul class="footer-link">
-                    <li><a class="smooth" href="#customers">Klanten</a></li>
-                </ul>
-                </div>
-                <div class="col-6 col-md-5 col-lg-5 footer-column">
-                    <ul class="footer-link">
-                    <li><a class="smooth" href="#integrations">Integraties</a></li>
-                </ul>
-                </div>
-
-                <div class="col-6 col-md-5 col-lg-5 footer-column">
-                    <ul class="footer-link">
-                    <li><a class="smooth" href="#contact">Contact</a></li>
-                </ul>
+                    <h4>Resources</h4>
+                        <ul class="footer-link">
+                            <li><a class="smooth" href="#blogs">Blog</a></li>
+                            <li><a class="smooth" href="#glossary">Glossary</a></li>
+                        </ul>
                 </div>
             </div>
             </div>

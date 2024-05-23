@@ -2,7 +2,7 @@
 
 <p>
 
-<section class="press mt-8">
+<section id="press mt-8">
     <div class="container">
         <h2 class="text-center">
             <span>Media & </span>

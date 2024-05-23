@@ -2,7 +2,7 @@
 
 <p>
 
-<section class="jobs">
+<section id="jobs">
     <div class="container">
         <div class="job-content">
             <h1 class="text-center">

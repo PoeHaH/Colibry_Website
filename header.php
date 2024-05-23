@@ -18,7 +18,7 @@
                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/colibry-bird.svg" style="max-width: 76px;" alt="Colibry logo" aria-hidden="true" class="hidden-lg-up">
                 <ul class="links-container hidden-md-down">
                     <li><a href="/#solutions">Oplossingen</a></li>
-                    <li><a href="/#customers">Klanten</a></li>
+                    <li><a href="https://colibry.ai/about">Over ons</a></li>
                     <li><a href="/#integrations">Integraties</a></li>
                     <li class="link-secondary"><a href="https://www.colibry.ai/contact/">Contact</a></li>
                 </ul>
