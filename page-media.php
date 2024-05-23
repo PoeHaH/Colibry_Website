@@ -1,7 +1,5 @@
 <?php get_header(); ?>
 
-<p>
-
 <section id="press mt-8">
     <div class="container">
         <h2 class="text-center">
@@ -192,6 +190,5 @@
         </div>
     </div>
 </section>
-</p>
 
 <?php get_footer(); ?>

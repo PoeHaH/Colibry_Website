@@ -1,6 +1,5 @@
 <?php get_header(); ?>
 
-<p>
 
 <section class="blogpost mt-8">
     <div class="container">
@@ -108,8 +107,5 @@
     </div>
 </section>
 
-
-
-</p>
 
 <?php get_footer(); ?>

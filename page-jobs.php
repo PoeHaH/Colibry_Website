@@ -1,7 +1,5 @@
 <?php get_header(); ?>
 
-<p>
-
 <section id="jobs">
     <div class="container">
         <div class="job-content">
@@ -54,6 +52,5 @@
             </div>
     </div>
 </section>
-</p>
 
 <?php get_footer(); ?>

@@ -1854,4 +1854,18 @@ textarea::placeholder {
 .blog-img > div {
   width: 100%;
   height: 270px;
+}
+
+.wpforms-container input, .wpforms-container select {
+  max-width: 100% !important;
+}
+
+.wpforms-container input, .wpforms-container select {
+  max-width: 100% !important;
+}
+
+.wpforms-container {
+  --wpforms-button-border-radius: 50px;
+  --wpforms-button-border-color: #0049FF;
+  --wpforms-button-background-color: #0049FF;
 }/*# sourceMappingURL=style.css.map */

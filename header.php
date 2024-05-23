@@ -14,26 +14,32 @@
         <header>
             <nav class="navbar">
                 <div class="nav-backdrop" aria-hidden="true" style="display: none;"></div>
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/colibrylogo.svg" style="max-width: 174px;" alt="Colibry logo" class="hidden-md-down">
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/colibry-bird.svg" style="max-width: 76px;" alt="Colibry logo" aria-hidden="true" class="hidden-lg-up">
-                <ul class="links-container hidden-md-down">
-                    <li><a href="/#solutions">Oplossingen</a></li>
-                    <li><a href="https://colibry.ai/about">Over ons</a></li>
-                    <li><a href="/#integrations">Integraties</a></li>
-                    <li class="link-secondary"><a href="https://www.colibry.ai/contact/">Contact</a></li>
-                </ul>
+                <a href="<?php echo home_url();?>">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/colibrylogo.svg" style="max-width: 174px;" alt="Colibry logo" class="hidden-md-down">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/colibry-bird.svg" style="max-width: 76px;" alt="Colibry logo" aria-hidden="true" class="hidden-lg-up">
+                </a>
+                <?php 
+                    wp_nav_menu( [ 
+                        'theme_location'    => 'main-menu', 
+                        'container'         => false, 
+                        'menu_class'        => 'links-container hidden-md-down', 
+                        'menu_id'           => 'main-menu' 
+                    ] ); 
+                ?>
                 <button aria-label="Navigation menu trigger" class="nav-trigger-mobile hidden-lg-up">
                     <span class="nav-hamburger">
                         <span class="nav-hamburger-inner"></span>
                     </span>
                 </button>
                 <div class="nav-mobile" aria-label="Navigation for mobile devices" aria-hidden="true" style="display: none;">
-                    <ul>
-                        <li><a href="/#solutions">Oplossingen</a></li>
-                        <li><a href="/#customers">Klanten</a></li>
-                        <li><a href="/#integrations">Integraties</a></li>
-                        <li class="link-secondary"><a href="/#contact">Contact</a></li>
-                    </ul>
+                    <?php 
+                        wp_nav_menu( [ 
+                            'theme_location'    => 'main-menu', 
+                            'container'         => false, 
+                            'menu_class'        => '', 
+                            'menu_id'           => 'main-menu' 
+                        ] ); 
+                    ?>    
                 </div>
             </nav>
         </header>

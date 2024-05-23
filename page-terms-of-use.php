@@ -1,7 +1,5 @@
 <?php get_header(); ?>
 
-<p>
-
 <section class="privacy-title-section">
     <div class="container">
         <div class="privacy-title-content">
@@ -129,8 +127,5 @@
         <p>Het mag duidelijk zijn, ons platform is er één voor en door gebruikers opgesteld. Wij leggen de lat graag hoog voor onszelf en stellen daarom iedere hulp ter verbetering van ons platform zeker op prijs en vragen je zelfs uitdrukkelijk alle opmerkingen, vragen en tips door te sturen. Dit kan op info@co-libry.be.</p>
     </div>
 </section>
-
-
-</p>
 
 <?php get_footer(); ?>

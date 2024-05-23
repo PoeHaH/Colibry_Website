@@ -34,12 +34,14 @@
 
         links.forEach(function(link) {
             link.addEventListener('click', function (event) {
-                event.preventDefault();
 
                 var href = this.getAttribute('href');
 
                 var targetElement = document.querySelector(href);
                 if (targetElement) {
+
+                    e.preventDefault();
+                    
                     var offsetTop = targetElement.offsetTop;
 
                     window.scrollTo({
@@ -52,36 +54,26 @@
     }
 
     // Customer logo slider
-    new Splide( '.splide', {
-        type   : 'loop',
-        perPage: 10,
-        breakpoints: {
-            1200: { perPage: 10 },
-            1024: { perPage: 8 },
-            800: { perPage: 6 },
-            640: { perPage: 4 },
-            359: { perPage: 2 },
-        },
-        arrows: false,
-        pagination: false,
-        drag: false,
-        pauseOnHover: true,
-        autoScroll: {
-            speed: .75,
-          },
-    } ).mount(  window.splide.Extensions );
-
-    function validateForm() {
-        var fname = document.getElementById("fname").value;
-        var email = document.getElementById("email").value;
-        var subject = document.getElementById("subject").value;
-    
-        if (fname === "" || email === "" || subject === "") {
-            document.getElementById("error-message").style.display = "block";
-            return false; 
-        }
+    var splide = document.querySelector('.splide');
+    if( splide ) {
+        new Splide( '.splide', {
+            type   : 'loop',
+            perPage: 10,
+            breakpoints: {
+                1200: { perPage: 10 },
+                1024: { perPage: 8 },
+                800: { perPage: 6 },
+                640: { perPage: 4 },
+                359: { perPage: 2 },
+            },
+            arrows: false,
+            pagination: false,
+            drag: false,
+            pauseOnHover: true,
+            autoScroll: {
+                speed: .75,
+            },
+        } ).mount(  window.splide.Extensions );
     }
-
-
 
 } )();

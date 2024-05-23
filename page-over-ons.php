@@ -1,6 +1,5 @@
 <?php get_header(); ?>
 
-<p>
     
 <section id="mission" class="mt-8">
     <div class="container">
@@ -158,7 +157,7 @@
                              </div>
                             <div class="employee-info">
                                 <span class="employee-name">Maarten Belmans</span>
-                                <span class="employee-role blue-text"> Master Developer Wizard </span>
+                                <span class="employee-role blue-text">Developer</span>
                             </div>
                         </div>
                     </div>
@@ -217,7 +216,7 @@
                              </div>
                             <div class="employee-info">
                                 <span class="employee-name">Kom bij ons team! </span>
-                                <span class="employee-role"><a href="https://www.colibry.ai/jobs/" class="blue-text">Vacatures</a></span>
+                                <span class="employee-role"><a href="/jobs/" class="blue-text">Vacatures</a></span>
                             </div>
                         </div>
                     </div>
@@ -227,6 +226,5 @@
     </div>
 
 </section>
-</p>
 
 <?php get_footer(); ?>

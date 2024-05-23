@@ -1,6 +1,5 @@
 <?php get_header(); ?>
 
-<p>
 
 <section class="privacy-title-section">
     <div class="container">
@@ -131,6 +130,5 @@
     </div>
 </section>
 
-</p>
 
 <?php get_footer(); ?>

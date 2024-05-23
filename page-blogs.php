@@ -1,8 +1,5 @@
 <?php get_header(); ?>
 
-<p>
-
-
 <section id="blogs" class="mt-8">
     <div class="container">
         <h2 class="text-center">
@@ -107,9 +104,5 @@
     </div>
 </section>
 
-
-
-
-</p>
 
 <?php get_footer(); ?>

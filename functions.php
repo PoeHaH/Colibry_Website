@@ -87,3 +87,11 @@ add_filter('jpeg_quality', function($arg){ return 100; });
 
 // Remove ID from menu item
 add_filter('nav_menu_item_id', function(){ return ''; });
+
+// Menus.
+register_nav_menus( array(
+    'main-menu'             => __( 'Main Menu', 'colibry' ),
+    'footer-menu-company'   => __( 'Footer Company Menu', 'colibry' ),
+    'footer-menu-resources' => __( 'Footer Resources Menu', 'colibry' ),
+    'footer-menu-bottom'    => __( 'Footer Bottom Menu', 'colibry' ),
+) );
