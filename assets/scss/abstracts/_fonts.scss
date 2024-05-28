@@ -3,28 +3,33 @@
 $poppins: 'Poppins', sans-serif;
 $dm-sans: 'DM Sans', sans-serif;
 
-html{
+html {
     font-size: 19px;
 }
 
 @media (max-width:992px) {
-    html{
+    html {
         font-size: 18px;
     }
 }
 
 @media (max-width:768px) {
-    html{
+    html {
         font-size: 17px;
     }
 }
 
-body{
+body {
     font-family: $dm-sans;
     font-size: 1rem;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: $poppins;
     line-height: 1.2;
 }
@@ -93,12 +98,22 @@ p {
 }
 
 @media (max-width: 992px) {
-    h1{ font-size: 3.2rem; }
-    h2{ font-size: 2.2rem; }
+    h1 {
+        font-size: 3.2rem;
+    }
+
+    h2 {
+        font-size: 2.2rem;
+    }
 }
 
 
 @media (max-width: 768px) {
-    h1{ font-size: 3rem; }
-    h2{ font-size: 2rem; }
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
 }

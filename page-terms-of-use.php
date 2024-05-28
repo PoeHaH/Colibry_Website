@@ -4,7 +4,8 @@
     <div class="container">
         <div class="privacy-title-content">
             <h1 class="text-center">
-                <span>Gebruiks</span><span class="blue-text">voorwaarden</span>
+                <span>Terms</span>
+                <span class="blue-text">of use</span>
                 <span class="yellow-text">.</span>
             </h1>
             <p class="text-center tagline">De website van www.colibry.ai is een initiatief van:</p>
