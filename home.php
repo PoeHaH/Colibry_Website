@@ -29,7 +29,7 @@
                     </div>
                 <?php endwhile; ?>
             <?php else: ?>
-                <p><?php _e( 'No Blog Posts found', 'nd_dosth' ); ?></p>
+                <p><?php _e( 'No Blog Posts found', 'colibry' ); ?></p>
             <?php endif; ?>
         </div>
     </div>

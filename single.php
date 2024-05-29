@@ -1,4 +1,5 @@
 <?php get_header(); ?>
+
 <section class="blogpost mt-8">
     <div class="container">
         <div class="row flex-hcenter">
@@ -13,7 +14,7 @@
                         </div>
                     </div>
                 <?php endwhile; else : ?>
-                    <p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
+                    <p><?php _e( 'Sorry, no posts matched your criteria.', 'colibry' ); ?></p>
                 <?php endif; ?>
             </div>
         </div>
