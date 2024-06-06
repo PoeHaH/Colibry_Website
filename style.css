@@ -1914,9 +1914,9 @@ textarea::placeholder {
   flex-flow: column;
   height: 90%;
   perspective: 1000px;
-  margin-bottom: 2rem;
 }
 .employees-section .employees-card .employee-avatar {
+  flex: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1924,14 +1924,17 @@ textarea::placeholder {
 }
 .employees-section .employees-card .employee-avatar img {
   border-radius: 25px;
+  max-width: 10rem;
 }
 .employees-section .employees-card .employee-content {
   display: flex;
   flex-flow: column;
   font-size: 0.9rem;
+  align-content: center;
+  margin-top: 1.5rem;
 }
 .employees-section .employees-card .employee-name {
-  font-size: 1.5em;
+  font-size: 1.3em;
   color: #00003C;
   font-weight: bold;
   text-align: left;

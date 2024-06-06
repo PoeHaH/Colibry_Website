@@ -56,8 +56,8 @@
                                 <?php endif; ?>
                             </div>
                             <div class="employee-content">
-                                <h3 class="employee-name"><?php echo esc_html($name); ?></h3>
-                                <p class="employee-specialties"><?php echo esc_html($specialties); ?></p>
+                                <span class="employee-name"><?php echo esc_html($name); ?></span>
+                                <span class="employee-specialties blue-text"><?php echo esc_html($specialties); ?></span>
                             </div>
                         </div>
                     </div>

@@ -22,13 +22,13 @@
                             ] ); 
                         ?>
                     </div>
-                    <!--<div class="col-6 col-md-5 col-lg-5 footer-column">
+                    <div class="col-6 col-md-5 col-lg-5 footer-column">
                         <h4>Resources</h4>
                             <ul class="footer-link">
                                 <li><a class="smooth" href="#blogs">Blog</a></li>
                                 <li><a class="smooth" href="#glossary">Glossary</a></li>
                             </ul>
-                    </div>-->
+                    </div>
                 </div>
                 </div>
             </div>
