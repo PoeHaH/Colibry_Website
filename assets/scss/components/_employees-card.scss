@@ -1,0 +1,43 @@
+@use '../abstracts/colors' as *;
+@use '../abstracts/fonts' as *;
+
+.employees-section {
+    .employees-card {
+        background: $background-color;
+        border-radius: 25px;
+        padding: 1.8rem 2rem;
+        display: flex;
+        flex-flow: column;
+        height: 90%;
+        perspective: 1000px;
+        margin-bottom: 2rem;
+
+        .employee-avatar {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            img {
+                border-radius: 25px;
+            }
+        }
+
+        .employee-content {
+            display: flex;
+            flex-flow: column;
+            font-size: .9rem;
+        }
+
+        .employee-name {
+            font-size: 1.5em;
+            color: $primary-blue;
+            font-weight: bold;
+            text-align: left;
+        }
+
+        .employee-specialties {
+            text-align: left;
+        }
+    }
+}

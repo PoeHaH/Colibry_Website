@@ -1,0 +1,26 @@
+@use '../abstracts/colors' as *;
+@use '../abstracts/fonts' as *;
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    padding: 1em 0;
+    list-style: none;
+
+    a {
+        display: inline-block;
+        padding: 0.5em 0.75em;
+        color: $primary-blue;
+        border: 1px solid $secondary-blue;
+        border-radius: 25px;
+
+        &:hover {
+            text-decoration: $secondary-blue underline;
+        }
+
+        &.current {
+            background-color: $background-color;
+            color: $primary-blue;
+        }
+    }
+}

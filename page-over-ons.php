@@ -33,16 +33,13 @@
     </div>
 </section>
 
-
 <section id="team" class="mt-8">
     <div class="container">
         <div class="box">
-
             <h2 class="text-center">
                 <span>Ons</span>
                 <span class="blue-text">team</span><span class="yellow-text">.</span>
             </h2>
-
             <div class="row">
                 <div class="col-12 col-lg-3">
                     <div class="employee-card mt-2">

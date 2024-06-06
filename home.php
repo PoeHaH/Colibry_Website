@@ -29,9 +29,17 @@
                     </div>
                 <?php endwhile; ?>
             <?php else: ?>
-                <p><?php _e( 'No Blog Posts found', 'colibry' ); ?></p>
+                <p><?php _e('No Blog Posts found', 'colibry' ); ?></p>
             <?php endif; ?>
         </div>
+    </div>
+
+    <div class="pagination">
+        <?php the_posts_pagination(array(
+            'mid_size' => 2,
+            'prev_text' => __( 'Vorige' , 'textdomain'),
+            'next_text' => __( 'Volgende', 'textdomain'),
+        )); ?>
     </div>
 </section>
 
