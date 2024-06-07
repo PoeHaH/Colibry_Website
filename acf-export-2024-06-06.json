@@ -1,0 +1,118 @@
+[
+    {
+        "key": "group_6660168123423",
+        "title": "Employees",
+        "fields": [
+            {
+                "key": "field_66601681f1122",
+                "label": "Employees",
+                "name": "employees",
+                "aria-label": "",
+                "type": "repeater",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "layout": "table",
+                "pagination": 0,
+                "min": 1,
+                "max": 0,
+                "collapsed": "",
+                "button_label": "Add row",
+                "rows_per_page": 20,
+                "sub_fields": [
+                    {
+                        "key": "field_666022f8f1123",
+                        "label": "Avatar",
+                        "name": "avatar",
+                        "aria-label": "",
+                        "type": "image",
+                        "instructions": "Hey, make sure the image sizes aren't too big for responsiveness. Good luck!",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "return_format": "array",
+                        "library": "all",
+                        "min_width": "",
+                        "min_height": "",
+                        "min_size": 0,
+                        "max_width": "",
+                        "max_height": "",
+                        "max_size": 2,
+                        "mime_types": "",
+                        "preview_size": "medium",
+                        "parent_repeater": "field_66601681f1122"
+                    },
+                    {
+                        "key": "field_66604e4cf1127",
+                        "label": "Name",
+                        "name": "name",
+                        "aria-label": "",
+                        "type": "text",
+                        "instructions": "Front and Back end euh Name I mean, don't forget Capitals!",
+                        "required": 1,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "maxlength": 50,
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "parent_repeater": "field_66601681f1122"
+                    },
+                    {
+                        "key": "field_66604e81f1128",
+                        "label": "Specialties",
+                        "name": "specialties",
+                        "aria-label": "",
+                        "type": "text",
+                        "instructions": "What does this person do?",
+                        "required": 1,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "maxlength": 50,
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "parent_repeater": "field_66601681f1122"
+                    }
+                ]
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "page",
+                    "operator": "==",
+                    "value": "111"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "",
+        "show_in_rest": 0
+    }
+]
