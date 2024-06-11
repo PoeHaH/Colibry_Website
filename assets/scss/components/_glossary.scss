@@ -1,0 +1,48 @@
+@use '../abstracts/colors' as *;
+@use '../abstracts/fonts' as *;
+
+
+.glossary-letter-wrap {
+    grid-column-gap: 8px;
+    grid-row-gap: 8px;
+    background-color: $background-color;
+    border-radius: 8px;
+    flex-flow: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    max-width: 792px;
+    margin-bottom: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 32px;
+    display: flex;
+    position: relative;
+
+    .glossary-link {
+        border: $secondary-color .5px;
+        background-color: white;
+        color: $primary-blue;
+        border-radius: 8px;
+        flex: none;
+        justify-content: center;
+        align-items: center;
+        width: 48px;
+        height: 48px;
+        padding: 12px;
+        text-decoration: none;
+        transition: $secondary-blue .3s, border-color .3s;
+        display: flex;
+    }
+}
+
+.glossary-content-card {
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+    border: 1px solid grey;
+    background-color: $background-color;
+    border-radius: 8px;
+    flex-direction: column;
+    padding: 24px;
+    display: flex;
+}

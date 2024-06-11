@@ -498,7 +498,7 @@
     <div class="row">
         <div class="col-12 flex-hcenter">
             <!-- Calendly inline widget begin -->
-            <div class="calendly-inline-widget" data-url="https://calendly.com/maxime-dejonghe/kennismaking-met-co-libry?hide_event_type_details=1&hide_gdpr_banner=1&primary_color=0049ff"></div>
+            <div class="calendly-inline-widget" data-url="https://calendly.com/co-libry_wendy/kennismaking-colibry?hide_event_type_details=1&hide_gdpr_banner=&text_color=00003c&primary_color=0049ff" style="min-width:320px;height:700px;"></div>
             <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
             <!-- Calendly inline widget end -->
         </div>

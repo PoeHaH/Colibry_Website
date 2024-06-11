@@ -1941,4 +1941,39 @@ textarea::placeholder {
 }
 .employees-section .employees-card .employee-specialties {
   text-align: left;
+}
+
+.glossary {
+  box-sizing: border-box;
+}
+.glossary .glossary-letter-wrap {
+  grid-column-gap: 8px;
+  grid-row-gap: 8px;
+  background-color: #F5F6FF;
+  border-radius: 8px;
+  flex-flow: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  max-width: 792px;
+  margin-bottom: 24px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 32px;
+  display: flex;
+  position: relative;
+}
+.glossary .glossary-letter-wrap .glossary-link {
+  border: 0.5px;
+  color: #00003C;
+  border-radius: 8px;
+  flex: none;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+  height: 48px;
+  padding: 12px;
+  text-decoration: none;
+  transition: #0049FF 0.3s, border-color 0.3s;
+  display: flex;
 }/*# sourceMappingURL=style.css.map */
