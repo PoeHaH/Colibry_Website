@@ -343,10 +343,29 @@ p {
 .blue-text {
   color: #0049FF;
   fill: #0049FF;
+  display: inline-block;
 }
 
 .yellow-text {
   color: #FFAA00;
+}
+
+@keyframes falling {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.fall-animation {
+  animation: falling 1.2s ease-in-out;
 }
 
 .flex {
@@ -1949,7 +1968,7 @@ textarea::placeholder {
   background-color: #F5F6FF;
   border-radius: 8px;
   flex-flow: wrap;
-  justify-content: flex-start;
+  justify-content: f;
   align-items: center;
   width: 100%;
   max-width: 900px;
@@ -1958,7 +1977,6 @@ textarea::placeholder {
   margin-right: auto;
   padding: 32px;
   display: flex;
-  position: relative;
 }
 .glossary-letter-wrap .glossary-link {
   background-color: white;

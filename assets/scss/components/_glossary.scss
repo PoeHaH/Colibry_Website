@@ -7,7 +7,7 @@
     background-color: $background-color;
     border-radius: 8px;
     flex-flow: wrap;
-    justify-content: flex-start;
+    justify-content: f;
     align-items: center;
     width: 100%;
     max-width: 900px;
@@ -16,7 +16,6 @@
     margin-right: auto;
     padding: 32px;
     display: flex;
-    position: relative;
 
     .glossary-link {
         background-color: white;

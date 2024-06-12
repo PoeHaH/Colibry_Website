@@ -98,3 +98,18 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 });
+
+//dynamic text
+document.addEventListener("DOMContentLoaded", function () {
+    const dynamicWordElement = document.getElementById("dynamic-word");
+    const dynamicWords = ["moment", "kanaal", "persoon", "boodschap"];
+    let index = 0;
+
+    setInterval(() => {
+        dynamicWordElement.textContent = dynamicWords[index];
+        dynamicWordElement.classList.remove("fall-animation");
+        void dynamicWordElement.offsetWidth;
+        dynamicWordElement.classList.add("fall-animation");
+        index = (index + 1) % dynamicWords.length;
+    }, 2000);
+});

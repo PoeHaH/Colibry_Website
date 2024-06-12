@@ -59,7 +59,7 @@
             <div class="row center-cols">
                 <div class="col-lg-6 col-12">
                     <h2 class="text-center-lg">
-                        <span>Juiste </span><span class="blue-text">boodschap</span><span class="yellow-text">.</span>
+                        <span>Juiste </span><span class="blue-text" id="dynamic-word">boodschap</span><span class="yellow-text">.</span>
                     </h2>
                     <p>
                         Dankzij Colibry hoef je niet te jongleren met talloze tools. 
@@ -162,7 +162,7 @@
             <div class="col-12 col-md-4 mt-2-md-down">
                 <div class="fact-card">
                     <span class="fact">
-                        8.893
+                        11.616
                     </span>
                     <span class="desc">
                         Emails verstuurd per maand

@@ -180,10 +180,32 @@
 .blue-text {
     color: $secondary-blue;
     fill: $secondary-blue;
+    display: inline-block;
 }
 
 .yellow-text {
     color: $yellow;
+}
+
+@keyframes falling {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+
+    50% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fall-animation {
+    animation: falling 1.2s ease-in-out;
 }
 
 .flex {
