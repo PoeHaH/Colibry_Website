@@ -1,4 +1,4 @@
-( function() {
+(function () {
 
     // Mobile menu
     var mobToggle = document.querySelector('.nav-trigger-mobile');
@@ -6,22 +6,22 @@
     var mobileLinks = document.querySelectorAll('.nav-mobile a');
     var navMobile = document.querySelector('.nav-mobile');
 
-    if( mobToggle ) {
-        mobToggle.addEventListener('click', function() {
+    if (mobToggle) {
+        mobToggle.addEventListener('click', function () {
             navMobile.style.display = 'block';
             navMobile.classList.add('active');
             backDrop.style.display = 'block';
         });
     }
 
-    if(backDrop) backDrop.addEventListener('click', function() {
+    if (backDrop) backDrop.addEventListener('click', function () {
         navMobile.classList.remove('active');
         backDrop.style.display = 'none';
     });
 
-    if( mobileLinks ) {
-            mobileLinks.forEach(function(el){
-            el.addEventListener('click', function(e){
+    if (mobileLinks) {
+        mobileLinks.forEach(function (el) {
+            el.addEventListener('click', function (e) {
                 navMobile.classList.remove('active');
                 backDrop.style.display = 'none';
             });
@@ -30,9 +30,9 @@
 
     // Anchor links smooth scrolling
     var links = document.querySelectorAll('nav a[href^="#"], a.smooth, .btn.smooth');
-    if(links){
+    if (links) {
 
-        links.forEach(function(link) {
+        links.forEach(function (link) {
             link.addEventListener('click', function (event) {
 
                 var href = this.getAttribute('href');
@@ -41,7 +41,7 @@
                 if (targetElement) {
 
                     e.preventDefault();
-                    
+
                     var offsetTop = targetElement.offsetTop;
 
                     window.scrollTo({
@@ -55,9 +55,9 @@
 
     // Customer logo slider
     var splide = document.querySelector('.splide');
-    if( splide ) {
-        new Splide( '.splide', {
-            type   : 'loop',
+    if (splide) {
+        new Splide('.splide', {
+            type: 'loop',
             perPage: 10,
             breakpoints: {
                 1200: { perPage: 10 },
@@ -73,7 +73,28 @@
             autoScroll: {
                 speed: .75,
             },
-        } ).mount(  window.splide.Extensions );
+        }).mount(window.splide.Extensions);
     }
 
-} )();
+})();
+
+//Glossary Toggler
+document.addEventListener("DOMContentLoaded", function () {
+    var accordions = document.querySelectorAll(".glossary-toggle");
+
+    accordions.forEach(function (accordion) {
+        accordion.addEventListener("click", function () {
+            var expanded = this.getAttribute("aria-expanded") === "true";
+            // Close all accordions
+            accordions.forEach(function (a) {
+                a.setAttribute("aria-expanded", "false");
+                a.nextElementSibling.style.maxHeight = null;
+            });
+            // Open the clicked accordion if it was not already expanded
+            if (!expanded) {
+                this.setAttribute("aria-expanded", "true");
+                this.nextElementSibling.style.maxHeight = this.nextElementSibling.scrollHeight + "px";
+            }
+        });
+    });
+});

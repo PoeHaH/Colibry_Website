@@ -1981,75 +1981,95 @@ textarea::placeholder {
 .glossary-block {
   width: 100%;
   max-width: 588px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
 }
 .glossary-block .glossary-content-card {
-  grid-column-gap: 24px;
-  grid-row-gap: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
   border: 1px solid #e4e6f1;
   background-color: #F5F6FF;
   border-radius: 8px;
-  flex-direction: column;
   padding: 24px;
-  display: flex;
 }
 .glossary-block .glossary-content-card .glossary-toggle {
   width: 100%;
   padding: 24px;
+  cursor: pointer;
 }
 .glossary-block .glossary-content-card .glossary-dropdown {
+  display: flex;
+  flex-direction: column;
   background-color: white;
   border-radius: 8px;
-  flex-direction: column;
-  display: flex;
   overflow: hidden;
 }
 .glossary-block .glossary-content-card .glossary-word-line {
-  grid-column-gap: 24px;
-  grid-row-gap: 24px;
+  display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  display: flex;
+  gap: 24px;
 }
 .glossary-block .glossary-content-card .glossary-word-line .glossary-word-wrap {
-  grid-column-gap: 16px;
-  grid-row-gap: 16px;
-  align-items: center;
   display: flex;
+  align-items: center;
+  gap: 16px;
 }
 .glossary-block .glossary-content-card .glossary-word-line .glossary-icon-wrapper {
-  border: 1px solid #e4e6f1;
-  color: #00003C;
-  background-color: #F5F6FF;
-  border-radius: 99px;
-  flex: none;
+  display: flex;
   justify-content: center;
   align-items: center;
   width: 32px;
   height: 32px;
-  display: flex;
+  background-color: #F5F6FF;
+  border: 1px solid #e4e6f1;
+  border-radius: 99px;
+  color: #00003C;
 }
 .glossary-block .glossary-content-card .glossary-word-line .glossary-icon-wrapper .icon-x-small {
-  flex: none;
+  display: flex;
   justify-content: center;
   align-items: center;
   width: 16px;
   height: 16px;
-  display: flex;
   color: #00003C;
 }
 .glossary-block .glossary-content-card .accordian-letter {
-  text-transform: uppercase;
-  color: #0049FF;
-  background-color: #F5F6FF;
-  border-radius: 8px;
-  flex: none;
+  display: flex;
   justify-content: center;
   align-items: center;
   width: 32px;
   height: 32px;
   padding: 4px;
-  display: flex;
+  background-color: #F5F6FF;
+  border-radius: 8px;
+  text-transform: uppercase;
+  color: #0049FF;
+  transition: color 0.3s, background-color 0.3s;
+}
+.glossary-block .glossary-content-card .accordian-letter:hover {
+  color: white;
+  background-color: #0049FF;
+}
+
+.w-dropdown-list {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease;
+}
+
+.glossary-content {
+  padding: 16px;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.w-dropdown-toggle[aria-expanded=true] + .w-dropdown-list {
+  max-height: 200px;
+}
+
+.w-dropdown-toggle[aria-expanded=true] .accordian-letter {
+  color: white;
+  background-color: #0049FF;
 }/*# sourceMappingURL=style.css.map */
