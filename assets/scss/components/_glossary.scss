@@ -11,7 +11,7 @@
     justify-content: flex-start;
     align-items: center;
     width: 100%;
-    max-width: 792px;
+    max-width: 900px;
     margin-bottom: 24px;
     margin-left: auto;
     margin-right: auto;
@@ -20,29 +20,105 @@
     position: relative;
 
     .glossary-link {
-        border: $secondary-color .5px;
         background-color: white;
-        color: $primary-blue;
+        border: solid #e4e6f1;
         border-radius: 8px;
         flex: none;
         justify-content: center;
         align-items: center;
         width: 48px;
         height: 48px;
-        padding: 12px;
-        text-decoration: none;
-        transition: $secondary-blue .3s, border-color .3s;
+        padding: 0.5 rem;
         display: flex;
+
+        &:hover {
+            transition: 1s;
+            color: $secondary-blue;
+            border: solid $secondary-blue;
+        }
     }
 }
 
-.glossary-content-card {
-    grid-column-gap: 24px;
-    grid-row-gap: 24px;
-    border: 1px solid grey;
-    background-color: $background-color;
-    border-radius: 8px;
-    flex-direction: column;
-    padding: 24px;
-    display: flex;
+.glossary-block {
+    width: 100%;
+    max-width: 588px;
+    margin-left: auto;
+    margin-right: auto;
+
+    .glossary-content-card {
+        grid-column-gap: 24px;
+        grid-row-gap: 24px;
+        border: 1px solid #e4e6f1;
+        background-color: $background-color;
+        border-radius: 8px;
+        flex-direction: column;
+        padding: 24px;
+        display: flex;
+
+        .glossary-toggle {
+            width: 100%;
+            padding: 24px;
+        }
+
+        .glossary-dropdown {
+            background-color: $white;
+            border-radius: 8px;
+            flex-direction: column;
+            display: flex;
+            overflow: hidden;
+        }
+
+        .glossary-word-line {
+            grid-column-gap: 24px;
+            grid-row-gap: 24px;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            display: flex;
+
+            .glossary-word-wrap {
+                grid-column-gap: 16px;
+                grid-row-gap: 16px;
+                align-items: center;
+                display: flex;
+            }
+
+            .glossary-icon-wrapper {
+                border: 1px solid #e4e6f1;
+                color: $primary-blue;
+                background-color: $background-color;
+                border-radius: 99px;
+                flex: none;
+                justify-content: center;
+                align-items: center;
+                width: 32px;
+                height: 32px;
+                display: flex;
+
+                .icon-x-small {
+                    flex: none;
+                    justify-content: center;
+                    align-items: center;
+                    width: 16px;
+                    height: 16px;
+                    display: flex;
+                    color: $primary-blue;
+                }
+            }
+        }
+
+        .accordian-letter {
+            text-transform: uppercase;
+            color: $secondary-blue;
+            background-color: $background-color;
+            border-radius: 8px;
+            flex: none;
+            justify-content: center;
+            align-items: center;
+            width: 32px;
+            height: 32px;
+            padding: 4px;
+            display: flex;
+        }
+    }
 }
