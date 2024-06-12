@@ -12,10 +12,11 @@
     
     <body>
         <header>
-            <nav class="navbar">
-                <div class="nav-backdrop" aria-hidden="true" style="display: none;"></div>
-                <a href="<?php echo home_url();?>">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/colibrylogo.svg" style="max-width: 174px;" alt="Colibry logo" class="hidden-md-down">
+        <nav class="navbar">
+            <div class="nav-backdrop" aria-hidden="true" style="display: none;"></div>
+                <a href="<?php echo home_url(); ?>" class="logo-container">
+                    <object id="svg1" type="image/svg+xml" data="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/colibry1.svg" style="max-width: 174px;" alt="Colibry logo" class="hidden-md-down"></object>
+                    <object id="svg2" type="image/svg+xml" data="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/colibry2.svg" style="max-width: 174px;" alt="Colibry logo" class="hidden-md-down"></object>
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/colibry-bird.svg" style="max-width: 76px;" alt="Colibry logo" aria-hidden="true" class="hidden-lg-up">
                 </a>
                 <?php 

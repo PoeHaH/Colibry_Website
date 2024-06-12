@@ -113,3 +113,25 @@ document.addEventListener("DOMContentLoaded", function () {
         index = (index + 1) % dynamicWords.length;
     }, 2000);
 });
+
+
+//Colibry Logo Animation
+function toggleSVGs() {
+    const svg1 = document.getElementById('svg1');
+    const svg2 = document.getElementById('svg2');
+
+    // Get the visibility of the first SVG
+    const svg1Visible = svg1.style.display !== 'none';
+
+    // Toggle the visibility of the SVGs
+    if (svg1Visible) {
+        svg1.style.display = 'none';
+        svg2.style.display = 'block';
+    } else {
+        svg1.style.display = 'block';
+        svg2.style.display = 'none';
+    }
+}
+
+// Call the toggleSVGs function at regular intervals (e.g., every 3 seconds)
+setInterval(toggleSVGs, 3000); // Adjust the interval as needed
