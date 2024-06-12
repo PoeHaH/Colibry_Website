@@ -1113,16 +1113,16 @@ header {
   align-items: center;
   margin: 1rem 5rem;
 }
-.navbar .colibry-logo {
-  max-width: 160px;
-}
 .navbar .logo-container {
-  position: relative;
-  height: 100%;
-  width: 100%;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+  margin-top: -4rem;
+  padding: 0;
 }
 .navbar .logo-container object {
   position: absolute;
+  margin-top: 0;
 }
 .navbar #svg2 {
   display: none;

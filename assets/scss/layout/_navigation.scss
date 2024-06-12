@@ -8,17 +8,17 @@
     align-items: center;
     margin: 1rem 5rem;
 
-    .colibry-logo {
-        max-width: 160px;
-    }
-
     .logo-container {
-        position: relative;
-        height: 100%;
-        width: 100%;
+        display: inline-block;
+        vertical-align: middle;
+        margin: 0;
+        //MAARTEN: Heb het op -4 moeten zetten, dus waarschijnlijk klopt er ergens iets niet maar ik vond het niet meteen. Sorry!
+        margin-top: -4rem;
+        padding: 0;
 
         object {
             position: absolute;
+            margin-top: 0;
         }
     }
 
@@ -27,7 +27,6 @@
     }
 
     .links-container {
-
         display: flex;
         gap: 3rem;
         list-style: none;
