@@ -192,51 +192,30 @@
             </h2>
 
             <div class="row">
-                <div class="col-12 col-lg-6">
-
-                    <div class="testimonial-card">
-                        
-                        <div class="testimonial-content">
-                            <p>
-                                “Colibry helpt onze klanten hun woning sneller en makkelijker te vinden. 
-                                Ze worden als eerste op de hoogte gesteld als er nieuwe panden in onze database te vinden zijn. 
-                                Tevens zorgt Colibry ook voor meer leads via onze website.“
-                            </p>
-                        </div>
-
-                        <div class="testimonial-author">
-                            <div>
-                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/testimonials/michiel-van-hove.jpg" alt="Michael Van Hove" loading="lazy" />
-                            </div>
-                            <div class="author-info">
-                                <span class="author-name">Michiel Van Hove</span>
-                                <span class="author-role">CTO</span>
-                                <span class="author-cpy blue-text">Hillewaere Group</span>
+                <?php if( have_rows('testimonials') ): ?>
+                    <?php while( have_rows('testimonials') ): the_row(); ?>
+                        <div class="col-12 col-lg-6">
+                            <div class="testimonial-card">
+                                <div class="testimonial-content">
+                                    <p><?php the_sub_field('testimonial_content'); ?></p>
+                                </div>
+                                <div class="testimonial-author">
+                                    <div>
+                                        <img src="<?php the_sub_field('testimonial_image'); ?>" alt="<?php the_sub_field('author_name'); ?>" loading="lazy" />
+                                    </div>
+                                    <div class="author-info">
+                                        <span class="author-name"><?php the_sub_field('author_name'); ?></span>
+                                        <span class="author-role"><?php the_sub_field('author_role'); ?></span>
+                                        <span class="author-cpy blue-text"><?php the_sub_field('author_company'); ?></span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-
-                <div class="col-12 col-lg-6 mt-3-lg-down">
-                    <div class="testimonial-card"> 
-                        <div class="testimonial-content">
-                            <p>“We wilden al veel eerder repetitieve taken automatiseren, maar de technologie was er nog niet. Dankzij Colibry hebben we automations om klanten beter te servicen en te informeren via mails en sms. Zo kunnen we focussen op de zaken die echt resultaten leveren.”</p>
-                        </div>
-
-                        <div class="testimonial-author">
-                            <div>
-                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/testimonials/malinesgroup.svg" alt="Andreas Van Deyck" loading="lazy" />
-                            </div>
-                            <div class="author-info">
-                                <span class="author-name">Andreas Van Deyck</span>
-                                <span class="author-role">Zaakvoerder</span>
-                                <span class="author-cpy blue-text">Malines Group</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                    <?php endwhile; ?>
+                <?php endif; ?>
             </div>
         </div>
+    </div>
 </section>
 
 
